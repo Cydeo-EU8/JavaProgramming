@@ -10,5 +10,10 @@ public class PrintVsPrintln {
 
         System.err.println("Error Statement");
 
+        // Single Line Commenting: it means, JAVA does not run these lines
+        /*
+        Whatever in between multiple comment lines or, block comment
+         */
+
     }
 }
