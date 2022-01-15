@@ -1,0 +1,93 @@
+Java Day04
+Topics: Variables
+		Primitive Data Types
+		String
+
+Package name: day04_Variables
+
+
+Primitive Data Types:
+		
+		numerical primitives:
+					double > float > long > int > short > byte
+
+
+primitives:
+	int: for integers
+	double: for decimals
+	char: for single characters, ''
+	boolean: true/false
+
+
+String: sequence of characters (String of text), ""
+
+variable naming rules:
+		1. MUST be unique
+		2. camelCase
+		3. Can Not start with digits
+		4. starts with lower case letters
+		5. Can Not be Java Reserved words
+		6. Can Not have special characters other than _ and $
+		7. readable, understandable
+	
+
+How to replace variable names?
+		1. Ctrl (Command) + R
+		2. type old variable name
+		3. type new variable name
+		4. click Replace All
+		
+
+Task:
+	1. Create a class named Square, write a program that can calculate the area & perimeter of any given square
+						side
+
+						area = side * side;
+						perimeter = 4 * side
+
+	2. Create a class named Rectangle, write a program that can calculate the area & perimeter of any given Rectangle
+						length
+						width
+
+						area = length * width
+						perimeter =  2 * (length + width)
+
+	3. Create a class named Circle, write a program that can calculate the area & perimeter of any given Circle
+			PI, radius, diameter, area, perimeter
+
+					Hints: 	PI = 3.14
+							area = radius * radius * PI
+							Perimeter = 2 * radius * PI
+
+	4. Create a class named KgToPounds, write a program that can convert kg (int) to pounds (double)
+					Hints: 1 kg = 2.2 pounds
+
+	5. Create a class named GallonsToLitters, Write a program that can convert gallon (int) to litter (double)
+					Hints: 1 gallon = 3.79 litters
+							1000
+							10000
+
+	6. Create a class named EmployeeInfo. declare the following variables:
+				1. name (String)
+				2. age (int)
+				3. gender (char)
+				4. company (String)
+				5. jobTitle (String)
+				6. yearsOfExpereince (double)
+				7. salary (int)
+				8. isFullTime (boolean)
+				9. isMarried (boolean)
+				10. employeeId (String)
+				11. SSN (String)
+
+
+
+Tomorrow: Concatenation
+
+
+
+
+
+
+
+
