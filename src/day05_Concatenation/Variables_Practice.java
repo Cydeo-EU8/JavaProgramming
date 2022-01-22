@@ -19,7 +19,7 @@ public class Variables_Practice {
         System.out.println("num2 = " + num2);
         System.out.println("num3 = " + num3);
         System.out.println("num4 = " + num4);
-        System.out.println("num5 = " + num5);
+        System.out.println("num5 = " + num5+1);
         System.out.println("num6 = " + num6);
 
         
