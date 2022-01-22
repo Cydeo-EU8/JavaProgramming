@@ -30,5 +30,7 @@ public class UserInputIntro {
         // we need to import scanner class from JAVA utilities
         // import java.util.Scanner; you put this statement at the top of your page before class
 
+    //    input.nextDouble() = double data type input.nextInt() = integer data type
+        // nextLine() is used for more than one words
     }
 }
