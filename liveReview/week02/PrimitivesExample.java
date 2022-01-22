@@ -25,6 +25,24 @@ public class PrimitivesExample {
 
         System.out.println("----Castings-----");
 
+        System.out.println("Before Swapping Values");
+        System.out.println("num1 = " + num1);
+        System.out.println("num2 = " + num2);
+        // you might need to swap or re-assign some different range of values
+
+        num2 = num1; // I am assigning num1 value to num2
+        // implicit casting, Widening, done by the compiler
+        System.out.println("After swapping");
+        System.out.println("num2 = " + num2);
+
+
+        System.out.println("Expilict Casting");
+        num2 = (short) distance;  // narrowing, done manually, possibility of loosing data
+        System.out.println("num2 = " + num2); // concatination
+
+        System.out.println("Explicit casting of floating points");
+        short rateTwo = (short) rate;
+        System.out.println("rateTwo = " + rateTwo);
     }
 
 }
