@@ -1,0 +1,8 @@
+Q1 : does the folder name (e.g., src, liveReview) have to start with lowercase ?
+        package and directory names should start with lowercase
+Q2 : System.out.print.ln(4+5 +" " + 4+5) it gives me 9 45 on the console.
+Why it is not doing addition after the space?so, Why is it concatenating instead of adding after space?
+
+OPERATORS
+   * Arithmetic Operators
+       - , + , / , * and modulus % (gives us remainder)
