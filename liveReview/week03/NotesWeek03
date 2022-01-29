@@ -24,3 +24,7 @@ OPERATORS
         <= less than equal
         == equal
         != not equal
+
+    * Logical Operators
+      & And operator , && Bitwise And Operator
+      | Or operator , || Bitwise Or operator

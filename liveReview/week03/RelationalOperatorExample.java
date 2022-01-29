@@ -14,5 +14,6 @@ public class RelationalOperatorExample {
 
         System.out.println(" Is the first number bigger than second one " + b);
 
+
     }
 }
