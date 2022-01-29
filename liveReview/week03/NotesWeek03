@@ -6,3 +6,13 @@ Why it is not doing addition after the space?so, Why is it concatenating instead
 OPERATORS
    * Arithmetic Operators
        - , + , / , * and modulus % (gives us remainder)
+   * Unary Operators:
+        + positive, - negative
+        ++ increase alue by 1  (we will use these cretaing loops)
+        -- decrease value by 1
+        ! not operator
+
+   * Assignment Operators
+       difference between   "=" (assigns a value) and "==" (checks if the statements are equal)
+
+       "+=" : a += 20;  ---->  a = a + 20;   Shorthand Operators
