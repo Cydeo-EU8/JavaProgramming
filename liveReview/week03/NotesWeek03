@@ -17,7 +17,7 @@ OPERATORS
 
        "+=" : a += 20;  ---->  a = a + 20;   Shorthand Operators
 
-   * Relational Operators
+   * Relational Operators : When we use relational operators result is BOOLEAN
         > greater than sign
         < less than sign
         >= greater equal
