@@ -17,7 +17,7 @@ public class DifferenceBetweenAndOrBitwiseOperators {
 
         boolean a = i2<i1 && ++i1<i2;  // false && true Bitwise and operator: if the first statement is false, DOES NOT check the second statement
         System.out.println("a = " + a);
-        System.out.println("i1 = " + i1); // 6
+        System.out.println("i1 = " + i1); // 5
 
         
     }

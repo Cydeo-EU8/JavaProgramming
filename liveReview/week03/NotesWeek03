@@ -28,3 +28,10 @@ OPERATORS
     * Logical Operators
       & And operator , && Bitwise And Operator
       | Or operator , || Bitwise Or operator
+
+
+
+   Control Flow Statements - Conditional Statements
+   if (condition) {do this}  else { go here if it is false}
+
+   if (condition 1 )- else if (condition 2) - else {}
