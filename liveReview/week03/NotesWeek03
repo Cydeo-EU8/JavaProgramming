@@ -16,3 +16,11 @@ OPERATORS
        difference between   "=" (assigns a value) and "==" (checks if the statements are equal)
 
        "+=" : a += 20;  ---->  a = a + 20;   Shorthand Operators
+
+   * Relational Operators
+        > greater than sign
+        < less than sign
+        >= greater equal
+        <= less than equal
+        == equal
+        != not equal
