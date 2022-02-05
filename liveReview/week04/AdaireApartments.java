@@ -3,7 +3,7 @@ package week04;
 public class AdaireApartments {
     public static void main(String[] args) {
         System.out.println("#####WELCOME TO ADAIRE APARTMENTS#########");
-        int numberOfBedrooms = 10;
+        int numberOfBedrooms = 1;
         double startingPrice = 0;
 
         switch (numberOfBedrooms) {

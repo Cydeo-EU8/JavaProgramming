@@ -125,3 +125,14 @@ RULES:
 -> it can only perform == (equals) Can NOT handle <=, >=
 -> works only with byte, short, char and int,  Strings
 
+=========================
+DEBUG
+When you have some kind of bug in your code, you want to find it and fix it
+
+Steps:
+1. put breakpoint by clicking on left panel where line numbers are
+2. Run as DEBUG (BUG ICON)
+3. Your compiler stops the execution at that line
+4. To move your compiler step by step "click on step over"
+
+Benefit: you can see the flow of the execution of your codes, variables and their values
