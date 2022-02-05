@@ -45,3 +45,40 @@ print "FREE SHIPPING ELIGIBILE. Your order total: $55"
 ELSE
 print "NOT ELIGIBLE FOR FREE SHIPPING. Your order total is $10. less than minimum of $25"
 -----------------------------------------------------------------
+Shortcut for alignment:
+command + option + L : MAC
+CTRL + ALT + L : Windows
+--------------------------------------
+how can I make a regular directory a source root?
+So I can create JAVA files
+marc directory as > sources root
+---------------------------
+Nested If:
+We can put IF statement inside another If statement
+
+add new class VendingNestedIf
+add main method
+
+selection = "drink" or can be "snack"
+drinkItem = "tea" , "coke"
+snackItem = "chips" , "candy"
+
+when selection is "drink":
+"drink option is selected"
+
+	when drinkItem is "tea":
+		"tea is selected"
+	when drinkItem is "coke":
+		"coke is selected"
+when selection is "snack"
+"snack option is selected"
+
+	when snackItem is "chips":
+		"chips item is selected"
+	when snackItem is "candy":
+		"candy item is selected"
+========================================
+
+REPLIT: we have a lot of replit practice, over 250
+ - graudally giving the tasks
+ IS NOT OUR PRIORITY
