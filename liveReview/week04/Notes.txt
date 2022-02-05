@@ -82,3 +82,46 @@ when selection is "snack"
 REPLIT: we have a lot of replit practice, over 250
  - graudally giving the tasks
  IS NOT OUR PRIORITY
+======================
+Sometimes we can skip using curly {} braces with if conditions
+WHEN:
+if you have only one statement in the IF block
+ADVICE:
+ ALWAYS use curly braces
+
+ ===================SWITCH STATEMENTS======================
+ add new class AdaireApartments
+ main method
+
+ #### WELCOME TO ADAIRE APARTMENTS ####
+
+ numberOfBedrooms = 0, 1, 2
+
+ startingPrice = 0;
+
+ when numberOfBedrooms 0:
+ print: "Studio apartment selected"
+ startingPrice -> 1454
+
+ when numberOfBedrooms 1:
+ print: "One bedroom apartment selected"
+ startingPrice -> 1725
+
+ when numberOfBedrooms 2:
+ print: "Two bedroom apartment selected"
+ startingPrice -> 2899
+
+ default:
+ print "5 bedroom currently unavailable"
+
+ ------
+ "Starting price $1454"
+==================================
+switch statement is present in all programming languages
+it acts like multi branch if statement
+easer to read, sometimes faster
+
+RULES:
+-> it can only perform == (equals) Can NOT handle <=, >=
+-> works only with byte, short, char and int,  Strings
+
