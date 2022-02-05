@@ -7,7 +7,7 @@ public class AdaireApartments {
         double startingPrice = 0;
 
         switch (numberOfBedrooms) {
-            case 0:
+            case 0: case 5:  // or logic for switch
                 System.out.println("You have selected studio apartment");
                 startingPrice = 1454.0;
                 break;
@@ -21,6 +21,7 @@ public class AdaireApartments {
                 break;
             default:
                 System.out.println(numberOfBedrooms + " bedroom apartment not available");
+                break;
         }
 
         System.out.println("Starting price : $"+startingPrice);
