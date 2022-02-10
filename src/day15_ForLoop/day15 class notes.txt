@@ -1,0 +1,65 @@
+Java Day15
+Topics: String Continue
+		Loops Intro: for
+
+package name: day15_ForLoop
+
+Warmup tasks:
+	1. Write a program that asks user to enter a word. If the work starts with x, replace it with a.
+                    Input:
+                        xcodex
+                    Output:
+                        acodex
+
+	2. Write a program that asks user to enter a word. and replace all the x or X with character a
+                    Input:
+                        xcodeX
+                    Output:
+                        acodea
+
+	3. Write a program that asks user to enter first and last names, and then prints the full name in regular format (first character in upper case)
+
+                    input:
+                        firstName = "cyDEo"
+                        lastName = "SCHOOL";
+
+                    output:
+                        Cydeo School
+
+
+
+complete switch statements short quiz due by 11:35 am
+
+
+Tasks:
+	1. print the following shape:
+
+				* * * * * * 
+                * * * * * *
+                * * * * * *
+                * * * * * *
+                * * * * * *
+                * * * * * *
+                * * * * * *
+                * * * * * *
+
+
+    2. Write a method which prints out the numbers from 1 to 100 but for numbers which are a multiple of both 3 and 5, print "FINRA" instead of the number,  for numbers which are a multiple of 3, print "FIN" instead of the number and for numbers which are a multiple of 5, print "RA" instead of the number. 
+        
+        ex: 
+            output:
+                1 2 FIN 4 RA FIN 7 8 FIN RA 11 FIN 13 14 FINRA 16 17 FIN 
+
+
+
+    3. Write a program that can calculate the sum of all integers between 1 to 100
+
+
+
+Tasks:
+	1. Write a program that can reverse any given string
+
+			String str = "Java"; ==> avaJ
+		 //			      0123
+
+
