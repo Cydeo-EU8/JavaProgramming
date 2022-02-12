@@ -16,3 +16,8 @@ mutation: covid19 mutation(changing)
 * is the length and index mean the same thing?
 the length str = 4
 
+// Why did we create Dynamic Substring example ? you want to find the index of a string then using this index you want to substring a certain part of the String
+
+*** Important Note: each method that you will learn is part your TOOLBOX (think yourself like mechanic)
+--- it is up to you how you implement it
+--- Algorithm : everybody can have different solutions

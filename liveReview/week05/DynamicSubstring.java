@@ -28,6 +28,11 @@ public class DynamicSubstring {
         System.out.println(searchResultTwo.substring(secondColon+1,secondColon+6)); // 12345
         // secondColon+1 : begining index
         // secondColon+6 : ending index
+
+        String today = " I coded a lot of [java] today"; // imagine that inside square brackets is dynamic
+        // Get me the word inside brackets using indexof and substring methods
+        String word = today.substring(today.indexOf("[")+1,today.indexOf("]"));
+        System.out.println("word = " + word); // word = java
     }
 
 }
