@@ -2,3 +2,16 @@ Today's Topics:
     - Review Scanner class, how to use it
     - Strings
         * methods that come from class
+Strings are created in two ways
+    - literal
+    - new keyword
+* When we create literal way, string is created in the "String Pool" (string constant pool)
+* immutable: not changing
+mutation: covid19 mutation(changing)
+* When we use string methods: substring, uppercase method... string manipulation methods, the string is not changing in the memory, just creating another one
+
+* Strings: squence of characters, each character has represantive number called "index number"
+            String str = "Java";
+                          0123
+* is the length and index mean the same thing?
+the length str = 4
