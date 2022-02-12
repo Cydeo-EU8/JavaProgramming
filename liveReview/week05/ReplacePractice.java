@@ -10,5 +10,20 @@ public class ReplacePractice {
 
         System.out.println("word = " + word);
 
+        System.out.println(word.replace('i','o'));
+
+        String searchResult = "1-48 of over 6,000 results for java";
+        String actualResult = searchResult.replace("1-48 of over ","")
+                .replace(" results for java","");
+
+
+        String expectedResult = "6000";
+
+        if(expectedResult.equals(actualResult)){
+            System.out.println("PASS");
+        }else{
+            System.out.println("FAIL");
+        }
+
     }
 }
