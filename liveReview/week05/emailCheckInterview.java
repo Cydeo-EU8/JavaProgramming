@@ -61,7 +61,8 @@ if indexOf() method can not find the string what does it return? : -1
         }
 
         System.out.println("result = " + result);
-
+// sorin..raducan@gmail..com : true
+// a@a.a valid
     }
 
 
