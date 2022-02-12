@@ -15,3 +15,4 @@ mutation: covid19 mutation(changing)
                           0123
 * is the length and index mean the same thing?
 the length str = 4
+
