@@ -8,11 +8,11 @@ public class StringMethods {
 
         boolean r = str.isEmpty();
 
-        System.out.println(r);
+        System.out.println(r); // false
 
         boolean r1 = str.isBlank();
 
-        System.out.println(r1);
+        System.out.println(r1); // true
 
 
         String str2 = "Cydeo    ";
