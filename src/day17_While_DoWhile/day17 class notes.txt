@@ -1,0 +1,103 @@
+Java Day17
+Topics: While & Do-While Loops
+		Branching Statements
+
+package name: day17_While_DoWHile
+
+warmup tasks:
+	1. Write a program that can return the frequency of a char from a String
+
+			Ex:
+				str = "AAABBBC"
+				ch = 'A' 
+
+			Output:
+				3
+
+
+	2. write a program that can return the frequency of the a word Java from the sentence 
+
+        Ex:
+            sentence = "JavaJavaJava";
+           
+            output: 3
+
+
+           	Str = "JavaJava";
+
+           		substrings:
+           			1. Java  //substring(0, 4)
+           			2. avaJ  //substring(1, 5)
+           			3. vaJa  // substring(2, 2+4 )
+           			4. aJav  // substring(3, 3+4)
+           			5. Java  // substring(4, 4+4)
+
+                
+
+        	Str = "Java Java Java Python"
+
+        		Delete 1st Java:
+        				" Java Java Python"
+
+				Delete 2d Java:
+						" Java Python"
+
+				Delete 3rd Java:
+						"  Python"
+
+
+
+
+while loop: repeated if statement
+	
+	while(condition){
+		statement;
+	}
+
+
+do -while : JUST DO IT
+		
+		do{
+			statement;
+		}while(condition);
+
+
+branching statements:
+			break statement: exits the loop & switch
+			continue statement: skips the current iteration
+
+
+
+Task:
+	1. Write a program for the  marriage proposal program asking the user, "Will you marry me?"
+    if the answer is yes, print "Congrats."
+    if the answer is no, print "Goodbye"
+    if the answer is neither yes nor no, print "Invalid answer, please re-enter" and repeat it until the user enters either yes or no
+
+
+    2. You are writing a code for the log-in function of the Cybertek Application, assume that your credentials are:
+                    username: Cydeo
+                    password: Cydeo123
+
+        Ask the user to enter their credentials. 
+                If credentials are matched, your program should print "Logged in." 
+                If the credentials are not matched, the program should allow the user to have three attempts to enter correct credentials and if all three attempts are failed, then print "Your account is locked."
+
+
+
+    	for(int i = 1; i <= 3; i++){
+
+    		if(valid){
+    			sout("Loged In")
+    			break;
+    		}
+
+    		if( i==3){
+    			sout(Your account is locked)
+    		}
+
+    	}
+
+
+
+
