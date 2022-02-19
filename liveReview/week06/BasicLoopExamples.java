@@ -32,7 +32,39 @@ public class BasicLoopExamples {
 
         System.out.println("z = " + z);
         // difference: if we make the initialization outside the for loop, the variable z can be used within the entire class. Or when the initalization is made within the for loop as usual, then the z only belongs to the loop  
-          
+        /**
+         * Question-2:
+
+         Write a program that
+         displays all odd numbers between 3-130
+         in the same line
+         */
+
+        for (int i = 3; i < 130 ; i += 2){
+
+                System.out.print(i + " ");
+
+        }
+
+/*
+		 * Question-3:
+
+			Write a program that displays
+			the number of even numbers between 5 and 50 (included)
+                I am asking How Many
+		 */
+        System.out.println();
+        int countOfEven=0;
+        for(int i=5;i<=50;i++){
+            if(i%2==0){
+                ++countOfEven;
+            }
+        }
+        System.out.println("Count Of Even numbers between 5 and 50 = " + countOfEven);
+
+
+
+
     }
 
 }
