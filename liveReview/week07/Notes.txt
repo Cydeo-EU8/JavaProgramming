@@ -13,7 +13,11 @@ Looping Statements:
          }
         do while
         nested loops
+            for each cycle of outer loop, inner loop completes each time
+            * for reading data from excel sheets, multi-D arrays, when you have column or rows in your data
+                outer loop:  one year            : ROW
+                inner loop:  each day (365 days) : COLUMN
 Branching Statements :
-    break
-    continue
+    break     : this one breaks the loop
+    continue : this one skips following steps in the loop
     return
