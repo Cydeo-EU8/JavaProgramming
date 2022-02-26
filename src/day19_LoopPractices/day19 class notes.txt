@@ -1,0 +1,93 @@
+Java Day19
+Topics: Loops Practices
+		Loops without curly braces
+		System.exits(0)
+
+
+Package Name: day19_LoopPractices
+
+
+Tasks:
+	1. Write a program that can find the frequency of the characters from a string
+
+			 Ex:
+                        str = "aabcccd";
+
+                        output:
+                                a2b1c3d1
+       
+
+	2. Write a program that can find the unique characters from a string without using indexOf() and lastIndexOf() methods
+
+    			Ex:
+                        str = "aabccdeef";
+
+                        output:
+                                bdf
+         
+
+Assignment due by Sunday:
+	go to: https://github.com/signup
+	Sign up for Github account
+
+
+
+Loop: repeated action
+	
+	for loop: iteration is fixed
+
+			for( initi; condition; iteration){
+				statements
+			}
+
+			initialization: starting point
+					int i = 5; 
+
+			condition: ending point
+					i < 10 ,  i >= 0
+
+			iterator: Co-related to the condition. runs long enough to make the condition false
+					i++, i++
+
+
+	while loop: iteration is not fixed. repeated If
+
+			while(condition){
+				statements
+			}
+
+
+	do-while loop: iteration is not fixed
+
+			do{
+				statements
+			}while(condition);
+
+			at least gets executed once
+
+
+Nested Loop: loop inside a loop (inner & outer)
+		
+		outer loop repeats the inner
+
+
+
+String short quiz due by 11:40 am
+
+
+Branching statements:
+		break: exits the loop & switch
+		continue: skips the current iteration of the loop
+		System.exit(0): terminates the current program, terminates the JVM
+
+
+Tasks:
+	1. Write a program that can return the first duplicated character from a string
+	2. Write a program that cna return the index number of the first duplicated character from a string
+	3. Write a program that can display all the characters that appeared twice in the string.
+	4. Write a program that can return the index number of the first unique character.
+
+
+
+
+

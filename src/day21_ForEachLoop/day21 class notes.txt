@@ -1,0 +1,66 @@
+Java Day21
+Topics: Arrays Utility Class: sort(), toString(), equals(), copyOf(), copyOfRange()
+		For Each Loop
+		String methods: toCharArray(), split()
+
+
+package name: day21_ForEachLoop
+
+
+Arrays Utility class:
+			
+		toString(array): converts the array object (single dimensional) to string, returns string
+		sort(array): sorts the array in ascending order
+
+					ascending order: smallest to larget
+										 0 ~ 9
+										 -10 ~ 10
+										 a ~ z (97)
+										 A ~ Z (65)
+
+		equals(array1, array2): checks if two arrays are equal, returns boolean
+
+		copyOf(array, newLength): copys the elements of the array, starting from first element to given number, returns new array
+
+		copyOfRange(array, beginningIndex, endingIndex): copys the elements of the array, staring from beginning index till the ending index (ending index excluded), returns new array
+
+
+
+
+String methods:
+	
+		toCharArray(): retrusn a char array
+				"abc".toCharArray() ====> {'a', 'b', 'c'}
+
+
+		split(value): retruns String array
+
+				"I love learning java programming language".split(" ") ===> {"I", "love", "learning" ,"java", "programming" ....}
+
+				"ABC".split("")  ===>  {"A", "B", "C"}
+
+
+For Each Loop: a loop that's already iterated.
+					iteration starts from index 0
+
+			 pre-condition: there MUST be a data structure
+
+
+			 for(DataType each : Array ){
+
+			 }
+
+
+Task
+  1. write a program that can merge two arrays of integers
+		Ex:
+			arr1 = {1,2,3,4}
+			arr2 = {5,6}
+			
+		output
+			arr3 = {1,2,3,4,5,6}
+
+
+
+
+

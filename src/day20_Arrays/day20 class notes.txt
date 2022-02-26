@@ -1,0 +1,87 @@
+Java Day20
+Topic: Arrays Intro
+	   
+Package name: day20_Arrays
+
+Array:
+	1. Single Diemnsional
+	2. Arrays Utility
+	3. For Each Loop
+	4. Multi-dimensional array
+
+
+Data Structure: to use the data efficiently, store data in organized manner
+		
+		1. Array (size is fixed, supports primitives & non-primitives)
+		2. Collection (size is not fixed, ONLY supports non-primitives)
+		3. Map (size is not fixed, ONLY supports non-primitives)
+
+
+regular variables:
+	String name = "David"; //, "Josh"
+	int number = 100;
+
+
+Array: Special variable that can contain multiple elements
+	   Size is fixed
+	   supports primitives & non-primitives
+
+	   Declaring array:
+
+	   		DataType[] variablename;
+
+
+   		Initializing array:
+
+   			If we do not know the exact data:
+   				1. DataType[] variablename= new DataType[length]
+   					int[] nums = new int[5];
+
+
+			If we know the exact data:
+				2. DataType[] variablename = {data1, data2, dat3 ...}
+
+
+
+Arrays Utility: Utility class of the array, provides the methods that can be used for the arrays
+			class name: Arrays
+			package: java.util
+
+
+		toString(array): converts array to string
+
+
+
+default values:
+	non-primiitives: null
+	primitives:
+		byte, short, int, long ===> 0
+		float, double ===> 0.0
+		boolean ==> false
+
+
+Tasks:
+	1. create an array that has the numbers 1 to 100
+	2. create an array that has the numbers 100 to 1
+	3. Write a program that asks user to enter a number 10 times:
+			1. store all user entered numbers in an array
+			2. find the max number
+			3. find the min number
+
+
+	4. AverageNumber:
+			1. Ask the user how many numbers they want to enter
+			2. get all the inputs from the user and store them into an array
+			3. Iterate the array & return the average number
+
+
+	5. Items
+			1. Create an array named items with the length of 5
+			2. Create an array named prices with the length of 5
+			3. Ask user to enter item name and price 5 times and store them into the items and prices arrays
+			4. calculate the total price of the arrays
+			5. display each item name and price in separate lines
+
+						ItemName -- Price
+
+
