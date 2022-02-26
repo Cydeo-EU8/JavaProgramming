@@ -1,0 +1,19 @@
+Control Flow Statements in JAVA
+Decision Making Statements : if, if else, nested if, switch
+Looping Statements:
+        for loops
+
+     * while : repeated if statement
+            if(condition) // true {
+            statement --->executed one time
+            }
+          while (condition) // true
+         {
+         statement // executed multiple times
+         }
+        do while
+        nested loops
+Branching Statements :
+    break
+    continue
+    return
