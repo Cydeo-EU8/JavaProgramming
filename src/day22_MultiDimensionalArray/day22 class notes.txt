@@ -1,0 +1,32 @@
+Java Day22
+Topic: Multi Dimensional Array
+
+package name: day22_MultiDimensionalArray
+
+warmup task:
+	1. Write a program that can reverse a sentence
+			Ex:
+				sentence = "Today is a good day to learn Java";
+
+			output:
+				Java learn to day good a is Today
+
+
+	2. Write a program that can reverse the second word of the sentence
+			Ex:
+				sentence = "I Love Java";
+
+			output:
+				I evoL Java
+
+
+Single Dimensional Array: container for the elemnts
+		10
+		20
+		40
+
+		int[] array = {10, 20, 30};
+
+
+Multi Dimensional Array: container for the arrays
+	

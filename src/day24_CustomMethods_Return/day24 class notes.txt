@@ -1,0 +1,96 @@
+Java Day24
+Topics: Custom Method
+				Return methods
+				return method vs void method
+
+package name: day24_CustomMethod_Return
+
+Warmup tasks:
+	1. Create a method that can display the initials of the person
+
+	2. Create a method that can display the domain of the email
+
+	3. Create a method that can display the name of the month based on the given number to the method
+
+	4. Create a method that can print the name of the day based on the given number to the method
+
+	5. Create a method that can print how many days a month has
+
+
+
+method: grouping code fragments ===> creating a function
+			
+			advantage: improves the re-usability of our codes
+
+
+			                             MUST       MUSt
+		Access-Modifier   specifier   return-type  name  (Parameter){
+
+					code fargments
+
+		}
+
+		Acess modifier: public
+				public: ALWAYS ACCESSIBLE
+
+		Specifier: static
+				static: method can be called through its class name
+					
+
+		ReturnType: void, any dataType
+				void: does not return a value
+				any dataType: MUST return a value
+
+		Parameter: any dataType (if the method needs additional info)
+
+		Method Name: meaningful, descriptive
+				
+
+
+
+What's method?
+What's void method?
+what's parameter?
+
+What's return method?
+
+
+return method: return type is not void
+				MUST return a vlaue
+
+
+return statement: used for exiting the method
+				 we can use it for returning a value from return methods
+
+
+branching statements:
+	continue: skiping the current iteration
+	break: exits the loop or switch
+	return: exiting the method (one method, current method)
+	System.exit(0): exits the system (EVERY THING WILL BE TERMINATED)
+
+
+
+
+Task: 
+	1. create a method that can remove duplciated characters from a string and returns the new value
+					"aaabbcccc" ===> "abc"
+
+	2. create a method that can return the maximum number from an array of integers
+
+	3. create a method that can return the minimum number from an array of integers
+
+	4. create a method that return the reversed array
+					{1,2,3,4,5} === > {5,4,3,2,1}
+
+
+	5. create a method that can merge two arrays and returnj the new array
+				arr1 = {1,2,3}
+				arr2 = {4,5}
+
+				{1,2,3,4,5}
+
+
+
+
+
