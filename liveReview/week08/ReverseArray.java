@@ -16,6 +16,10 @@ public class ReverseArray {
           }
 
         System.out.println("After  reverse : " + Arrays.toString(nums));
-    }
+        
+
+
+
+       }
 
 }
