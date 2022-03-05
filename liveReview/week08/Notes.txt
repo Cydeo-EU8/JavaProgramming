@@ -19,3 +19,14 @@ double: 0.0
 String: null
 
 Arrays start from zero index
+
+FOR EACH LOOPs:
+it is used when you have collection
+arraylist,map,list,set....
+
+We need two parts:
+1. temporary variable: needs to be same data type with the Array
+2. collection reference after ":" statement
+
+for(int num : codes){  statement }
+Disadvantage: No backard and you can not jump to different index
