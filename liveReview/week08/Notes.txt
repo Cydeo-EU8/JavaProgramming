@@ -1,0 +1,21 @@
+Week8:  2h+4.5h+4.5h = 11 hours Java
+        Soft Skills: Experience Sharing (2+2) 4 hours
+        15/5=3hours recording
+Week9: 2+2+4h= 8 hours Java
+Week10: 13 hours just JAVA = 2.5 hours everday
+
+Arrays: int code = 200; // single data
+
+DATA Structures: popular one is Array
+- ArrayList, List, Set, Map ....
+
+In Java, Arrays are fixed size, not re-sizable
+
+Arrays hold same type of Data
+
+Default values of Data Types
+int: 0
+double: 0.0
+String: null
+
+Arrays start from zero index
