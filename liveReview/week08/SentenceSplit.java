@@ -27,5 +27,12 @@ public class SentenceSplit {
                 "Date: 11/10/2021";
 
         System.out.println("confirmation = " + confirmation);
+        // chain your codes together
+        String amount = confirmation.split("\n")[1].split(" ")[1];
+        System.out.println("amount = " + amount);
+
+        //  confirmation.split("\n") -> array
+        // confirmation.split("\n")[1] -> the second element in the array, so it is string, so I can split again, and provide index of second element I get amount
+
     }
 }
