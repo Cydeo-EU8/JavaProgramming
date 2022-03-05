@@ -35,7 +35,7 @@ public class CharArrayTwo {
         for (char letter : word2.toCharArray()) {
             System.out.println("letter = " + letter);
             countOfEachChar[letter-97] = countOfEachChar[letter-97]-1;
-            System.out.println("----After putting the letter into its index----------");
+            System.out.println("----After removing the letter from its index----------");
             System.out.println(Arrays.toString(countOfEachChar));
         }
 
