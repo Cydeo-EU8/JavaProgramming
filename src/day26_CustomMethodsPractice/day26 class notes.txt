@@ -1,0 +1,32 @@
+Java Day26
+Topics: Custom Methods Practice
+
+package name: day26_CustomMethodsPractice
+
+warmup tasks:
+	1. Create a class named FrequencyOfElement:
+			1.1 Create a method that passes two parameters: an integer array and an Integer element. The method returns the frequency of the given integer element from the integer array
+
+			1.2 Create a method that passes two parameters: a double array and a double element. The method returns the frequency of the given integer from the array
+
+			1.3 Create a method that passes two parameters: a char array and a char element. The method returns the frequency of the given char element from the char array
+
+			1.4 Create a method that passes two parameters: a String array and a String element. The method returns the frequency of the given String element from the String array
+
+
+	2. Create a class named RemoveElements:
+			2.1 Create a method that passes two parametetrs: an integer array and an integer index. the method removes the element at the given index of the array and returns the new array
+					Ex:
+						int[] arr = {10,20,30,40}
+						removeElement(arr, 2) ==> {10, 20, 40}
+
+			2.2 Create a method that passes two parametetrs: a double array and an integer index. the method removes the element at the given index of the array and returns the new array
+
+
+			2.3 Create a method that passes two parametetrs: a char array and an integer index. the method removes the element at the given index of the array and returns the new array
+
+			2.4 Create a method that passes two parametetrs: a String array and an integer index. the method removes the element at the given index of the array and returns the new array
+
+
+
+

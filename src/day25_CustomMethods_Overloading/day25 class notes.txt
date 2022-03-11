@@ -1,0 +1,47 @@
+Java Day25
+Topics: Method Overloading
+
+package name: day25_CusomMethod_Overloading
+
+Warmup tasks:
+	Task1:
+	    1. create a method that can find the sum of two numbers
+	                    method name: sumOf2Numbers
+
+	    2. create a method that can find the sum of three numbers
+	                    method name: sumOf3Numbers
+
+	    3. create a method that can find the sum of four numbers
+	                    method name: sumOf4Numbers
+
+	Task2:
+		1. create a return method called addInteger that can add an Inteeger  after the  last index of an integer array
+
+					{1,2,3,4}, 5
+					new array ==> {1,2,3,4,5}
+
+	    2. create a return method called addDouble that can add a double after the last index of a double array
+
+	    3. create a return method called addString that can add a String after the last index of a String array
+
+	    4. create a return method called addChar that can add a char after last index of a char array
+
+
+
+Method Overloading: multiple different methods sharing the same method name
+			same method name, different parameters
+
+			return type, access modifiers and specifiers can be same or can be different
+
+			Advantage:
+				1. easy to memorize
+				2. easy to read
+				3. reusable
+				4. flexible
+
+
+
+Utility Classes:
+	StringUtility
+	ArrayUtility
+	NumberUtility

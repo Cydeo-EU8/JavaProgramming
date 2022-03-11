@@ -1,0 +1,57 @@
+Java Day28
+Topic: ArrayList
+
+package name: day28_ArrayList
+
+
+Warmup tasks:
+	1.Write a program that can verify if a password is a strong password. Characteristics of strong passwords are:
+        1.1 Password must be at least have 8 characters long, and should not contain space
+        1.2 PassWord should at least contain one upper case letter
+        1.3 PassWord should at least contain one lower case letter
+        1.4 Password should at least contain one special characters
+        1.5 Password should at least contain a digit
+
+
+
+Data Structure:
+	Array: size is fixed, supports both primitives & non primitives
+	Collection: size is dynamic, does not support primitives
+
+
+
+ArrayList: part of the collection. internally uses the array
+
+
+ArrayList Methods:
+	add(Data): adds the data after the last index of the ArrayList
+
+	add(index, Data): inserts the data at the given index
+
+	size(): returns the total number of elements
+
+	get(index): returns the element at the given index
+
+
+	set(index,  Data): replaces the element at given index with the new element.
+
+
+	remove(int index): removes the element at the given index
+
+	remove(Object): removes the given object from arraylist, returns boolean
+
+	clear(): remove all the elements of the arraylist, size will be 0
+
+	indexOf(Data): returns the first matching element's index number, returns int
+
+	lastIndexOf(Data): returns the last matching element's index number, returns int
+
+	contains(Data): returns true if the element is contained in the arraylist, otherwise returns false
+
+	equals(ArrayList): returns true if two arraylists are equal (same elements in same order), otherwise returns false
+
+
+
+
+
+
