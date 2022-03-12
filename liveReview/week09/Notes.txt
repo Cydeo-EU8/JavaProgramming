@@ -33,7 +33,17 @@ MultiDimensional Arrays: 2D, 3D, 4D
 
    parameter : any data Type (String, int, Array...)
 
+Void Methods:
+1) With Parameters
+2) No Parameters
 
+Non-Void / Return Type Methods
+1) With Params
+2) No Params
+Debugging
+Step Over: runs the line and does not go into the method body
+Step into: goes inside the method line by line
+step out : completes all the steps in the method and takes you out back to main method
 
 
 
