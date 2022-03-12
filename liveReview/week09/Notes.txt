@@ -13,3 +13,13 @@ MultiDimensional Arrays: 2D, 3D, 4D
         }                              0 1 2 3
 
         number 8 : arr2D [2][1]
+
+ ************ Methods:   ***********************
+ - reusable
+ exp: str.length() ---> takes no parameter, return type: integer
+       str.charAt(index) ---> takes parameter(integer which reps. index), returning Char
+
+   Custom Methods/Functions
+
+
+
