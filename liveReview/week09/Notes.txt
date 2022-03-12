@@ -53,3 +53,19 @@ Third Case: Dİfferent class and different package:
     import the class first:  import week09.Calculator;
         Write ClassName.methodName   : Calculator.add()
 
+
+       /*      A B Balanced
+       	 * * Write a program that will accept a String and check if the a's and b's in the String are
+       	 * balanced. A String is balanced whenever there is an 'a' character and somewhere later
+       	 * in the String there is a 'b' character
+       	Ex:
+       		Input: "abcab"
+       		Output: "balanced"
+
+       		Input: "bacdf"
+       		Output: "not balanced"
+
+       		Input: "ayeba"
+       		Output: "not balanced"
+       	 */
+
