@@ -24,5 +24,14 @@ public class R01_ArraysBinarySearchExample {
             System.out.println("12346 is not in the list");
         }
 
+        int[] numsTwo = {56, 3, -67, 100, 1000, 75};
+
+        Arrays.sort(numsTwo); // in order to use binarySearch method, it needs to be sorted first
+
+        System.out.println(Arrays.binarySearch(numsTwo, 100));
+
+        System.out.println(Arrays.binarySearch(numsTwo, 60));
+
+
     }
 }
