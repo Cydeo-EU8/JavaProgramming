@@ -21,5 +21,19 @@ MultiDimensional Arrays: 2D, 3D, 4D
 
    Custom Methods/Functions
 
+   syntax of custom methods
+   Access-Modifier specifier return-type methodName(Parameter){
+   statement
+   }
+   Access-Modifier: public, private, protected, default
+
+   specifier: static, final, abstract
+
+   return-Type: void, and any dataType (String, int, Array...)
+
+   parameter : any data Type (String, int, Array...)
+
+
+
 
 
