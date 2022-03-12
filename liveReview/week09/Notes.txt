@@ -45,5 +45,11 @@ Step Over: runs the line and does not go into the method body
 Step into: goes inside the method line by line
 step out : completes all the steps in the method and takes you out back to main method
 
-
+When we create custom Methods 3 possible way of using:
+First way: Inside same class--- No need to write className
+Second way: Inside anoter class we want to call our method, both classes are in the same package
+   Write ClassName.methodName   : Calculator.add()
+Third Case: Dİfferent class and different package:
+    import the class first:  import week09.Calculator;
+        Write ClassName.methodName   : Calculator.add()
 
