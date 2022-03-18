@@ -1,0 +1,155 @@
+Java Day31
+Topic: Constructor
+
+package name: day31_Constructors
+
+warmup tasks:
+	Offer Task:
+		1. Create a custom class named Offer
+				Attributes:
+						location, companyName, jobTitle, salary, hasBenefit, hasPTO, isWFH, isFullTime
+
+				Actions:
+					setInfo(): sets all the instance variables
+					toString(): returns the full info of the Offer Object
+
+		2. Create a class named MyOffers:
+
+				2.1 Create 7 objects of Offer
+				2.2 Create an array of Offers named myOffers and store all 7 objects of offers
+				2.3 Create an ArrayList of Offer named fullTimeOffers and add all the offer objects.
+						2.3.1 Write a program that can remove the offer objects that are not full-time
+				2.4 Create an ArrayList of Offer named localOffers and add all the offer objects.
+						2.4.1 Write a program that can remove all the offers that are not from local
+				2.5 Create an ArrayList of Offer named offersWithBenefits and add all the offer objects.
+						2.5.1 Write a program that can remove all the offers that does not have benefit and does not have PTO
+				2.6 Create an ArrayList of Offer named sdetOffers and add all the offer objects.
+						2.6.1 Write a program that can remove all the offers that are not for SDET
+				2.7 Create an ArrayList of Offer named offersWith100K and add all the offer objects.
+						2.7.1 Write a program that can remove all the offers that are offering less than 100K salary
+
+
+	BankAccount Task:
+	        Attributes: 
+	                1. accountHolder, 2. accountNumber, 3. balance
+	                
+	        Actions: 
+	        	1. setInfo(): sets the accountHolder and accountNumber attributes
+	        	2. toString()
+	            3. checkBalance():displays the available balance
+	            2. deposit(): increases the balance by the given amount
+				3. withdraw(): decreases the balance by the given amount
+
+
+
+
+
+
+
+
+regular methods:
+		
+		Access-Modifiers  Specier  ReturnType methodName(Parameter){
+
+		}
+
+
+Constructor: A Special method
+
+	
+	syntax:
+		Access-Modifiers  ClassName(Parameter){
+
+		}
+
+
+	used for creating objects
+
+	Execution depends on the object
+
+
+
+Pizza Task:
+    	Attributes:
+    		size, numberofCheeseTopping, numberOfPepperoniTopping
+
+    		Add a constructor that can set all the fields
+
+		Actions:
+			calcCost(): returns the totalCost of the pizza
+			toString():returns a String containing the pizza size, quantity of each topping, and the pizza cost as calculated by calcCost()
+			
+		Pizza cost is determined by:
+                        S: $10 + $2 per topping
+                        M: $12 + $2 per topping
+                        L: $14 + $2 per topping
+
+
+
+
+Scrum Task:
+	create a class called Tester
+	        Attributes:
+	            name, employeeID, JobTitle, Salary    
+
+	        Add A constructor that can set all the fileds
+
+	        Actions:
+	           smokeTesting(),  creatingTicket(), dailyStandUp() toString()
+
+	create a class called Developer
+	          Attributes:
+	            name, employeeID, JobTitle, Salary     
+
+	          Add A constructor that can set all the fileds
+
+	          Actions:
+	            coding(), unitTesting(), fixingBug(), toString()
+
+	create a class called ScrumTeam
+	           Attributes:
+	                String PO, BA, SM;
+	                ArrayList<Tester> testersList = new ArrayList<>();
+	                ArrayList<Developer> devopsList = new ArrayList<>();
+	                int daysOfSprint;
+
+	               Add A constructor that can set the fileds PO, BA, and SM
+
+	             Actions:         
+	                  addTester(Tester tester): adds the given tester to the testers ArrayList
+
+	                  addTesters(Tester[] testers): adds the given testers to the testers ArrayList
+
+	                  addDeveloper(Developer developer): adds the given developer to the developers ArrayList
+	                                    
+	                  addDevelopers(Developer[] developers): adds the given developers to the developers ArrayList
+
+	                  removeTester(long employeeID): removes the given tester from the testers ArrayList
+
+	                  removeDeveloper(long employeeID): removes the developer from the developers ArrayList
+
+	                  toString(): prints number of tester,& developers,  PO name, SM name, BA name
+
+
+	create a class called MyScrumTeam:
+	                    1. create an array of Testers and add the testers from your group
+	                    2. create an array of developers add the developers from your group
+	                    3. create an object of ScrumTeam and store the testers & developers above to the scrum team
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

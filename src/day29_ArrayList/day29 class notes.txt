@@ -1,0 +1,79 @@
+Java Day29
+Topic: ArrayList Continue
+	   Collections Utility Class
+
+
+package name: day29_ArrayList
+
+
+warmup tasks:
+	1. Write a program that can return the first unique elements from an arraylist
+
+			Do not use indexOf & lastIndexOf methods
+
+
+	2. Write a program that can find the maximum, minimum and average number from an arrayList of integers
+
+
+
+
+Bulk Operations: argumnet MUST be a collection type
+
+	addAll(CollectionType): adds collection of values to the arrayList
+	removeAll(CollectionType): removes all the matching elements from the arraylist
+	retainAll(CollectionType): removes all the non-matching elements from the arraylist
+	containsAll(CollectionType): checks if all the elements are contained in the arraylist
+
+
+Arrays:
+	asList(array of values) ===> returns the array as collectionType
+
+
+
+
+Remove functions:
+	remove(): when we remove one element. DO NOT use it in the loop
+	removeAll(): when we remove multiple elements ( if the elements that we want to remove are known)
+	retainAll(): when we want to retain multiple elements (if the elements that we want to retain are known)
+	removeIf(): when we remove under a condition (if the elements we want to remove are unknown)
+
+
+
+Collections: utility class of collection
+	
+	sort()
+	reverse()
+	swap()
+	max()
+	min()
+	replaceAll()
+	frequency()
+
+
+
+Array vs ArrayList: both has index numbers
+		
+		ArrayList: size is not fixed
+				   only supports non-primitives
+				   Can not be multi-dimensional
+
+		Array: size is fixed
+			   supports both primitives & non-primitives
+			   Can be multi-Dimensional
+
+
+
+
+1. write a program that can return the nth largest number from an arraylist
+			
+			arraylist = {1,2,3,4,5,6,7, 7 ,8, 8}
+			n = 5
+
+			output:
+				4
+
+Tomorrow: Custom Class
+
+
+
+
