@@ -25,4 +25,16 @@ X is called object reference
 Since X is object reference; I can reach methods of these Wrapper Classes
 
 
+Auto-boxing / Unboxing
+If JAVA compiler makes your primitive data type to corresponding object wrapper class : Auto-boxing
+if it is apposite way it is called unboxing
+
 ArrayList: Can I put primitive inside Arraylist? NO NO NO
+
+Data Structures:
+Arrays : Fixed size, It can hold both primitive and object types
+
+ArrayList part of Collections (List, Set, Map....): Only takes object types (so for primitive values we need Wrapper Classes)
+
+ArrayList: Flexible size however it is slower comparing to Arrays
+        Biggest advantage comes from usefull methods
