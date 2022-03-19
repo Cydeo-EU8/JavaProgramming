@@ -5,6 +5,10 @@ public class R02_DifferenceBetween {
 
         int[] arr = {4,7,10,45,-34,0,12};
         System.out.println(difference(arr));
+
+        // I want to see even numbers of this array
+
+        System.out.println(R01_CountOfEven.counter(arr));
     }
 
     public static int difference(int[] arr) {

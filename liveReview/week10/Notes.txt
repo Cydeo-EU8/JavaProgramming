@@ -3,6 +3,8 @@ Exp 1:  we will create a method that will return count of even numbers, and para
 
 Exp 2: we will create a method that will return the difference between max and min numbers of an int Array
 
+Exp 3: This example was implemented to show that we can call a method from other methods
+
 Wrapper Class:
 int, double, char, short ... primitive
 
