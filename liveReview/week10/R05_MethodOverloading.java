@@ -40,4 +40,10 @@ public class R05_MethodOverloading {
         }
         return inches*2.54;
     }
+    /*
+    public static int convertBritishToMetric(double feet,double inches){
+
+    }
+    It is not considered as method overloading, just return type changed, JAVA compiler is complining
+     */
 }
