@@ -1,2 +1,16 @@
 
 Exp 1:  we will create a method that will return count of even numbers, and parameter is an int Array
+
+Exp 2: we will create a method that will return the difference between max and min numbers of an int Array
+
+Wrapper Class:
+int, double, char, short ... primitive
+
+Integer X = new Integer(9); ----> Value is just 9
+X is called object reference
+9 is the value of that object
+
+Since X is object reference; I can reach methods of these Wrapper Classes
+
+
+ArrayList: Can I put primitive inside Arraylist? NO NO NO
