@@ -1,0 +1,2 @@
+
+Exp 1:  we will create a method that will return count of even numbers, and parameter is an int Array
