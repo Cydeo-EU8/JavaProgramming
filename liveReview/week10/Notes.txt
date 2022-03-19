@@ -5,6 +5,10 @@ Exp 2: we will create a method that will return the difference between max and m
 
 Exp 3: This example was implemented to show that we can call a method from other methods
 
+Exp 4: Can I use a return of a method inside another method as of it's parameter
+
+     ??   methodOne(String str, int x ) ?? public static int methodTwo(){}
+
 Wrapper Class:
 int, double, char, short ... primitive
 
