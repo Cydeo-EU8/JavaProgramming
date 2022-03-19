@@ -9,6 +9,12 @@ Exp 4: Can I use a return of a method inside another method as of it's parameter
 
      ??   methodOne(String str, int x ) ?? public static int methodTwo(){}
 
+
+PIQ: What is Method Overloading?
+        str.substring (int beginningIndex)
+        str.substring (int beginningIndex, int endingIndex)
+rules: method has to have same name, with different parameters (number of parameters, type of parameters)
+
 Wrapper Class:
 int, double, char, short ... primitive
 
