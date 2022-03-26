@@ -34,3 +34,7 @@ OBJECTS:
 
 Classes:
     Templates, blueprints of objects
+
+instance variables: every object of that class has it's own value
+
+instance methods : every object of that class has it's own implementation
