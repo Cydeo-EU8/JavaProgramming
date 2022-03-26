@@ -24,3 +24,13 @@ ArrayList Methods:
 -> how to read: get(index)
 -> size: returns the count of elements
 -> contains: checks if the value is in the arraylist
+
+OBJECTS:
+
+    * Attribute (state of the object) : Data fields, Instant Variables
+
+    * Behaviour (Actions) : Methods, instance methods
+
+
+Classes:
+    Templates, blueprints of objects
