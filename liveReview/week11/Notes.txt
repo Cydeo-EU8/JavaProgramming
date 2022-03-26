@@ -1,0 +1,19 @@
+Automation Engineer (30 Weeks Long)
+    - JAVA (passed the half way)
+    - HTML
+    - UI (User Interface) - Front End
+        * Selenium Webdriver - you need java knowledge
+        * Cucumber Framework-Gherkin Language
+    - Back End Testing
+        * API (RestAssured Library)
+        * Database (SQL based) - JDBC (Java DataBase Connectivity)
+    - Version Control System : GIT -- GITHUB
+    - CI (continous integration) Tools : Jenkins
+    - Project Management, Team Management, Bug Management : JIRA
+
+ArrayList:
+- Dynamic Arrays: at the background it using Arrays
+- ordered collection of data of the same type
+- it only accepts Objects
+- we have to use Wrapper classes
+- Ordered, index based
