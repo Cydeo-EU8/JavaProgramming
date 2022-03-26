@@ -1,0 +1,46 @@
+Java Day33
+Topic:  1. Creating Multiple class in a file
+		2. Statics
+			- Variables
+			- Methods
+			- static import
+
+
+Package name: day33_Statics
+
+
+Warmup tasks:
+	
+	Student Task:
+		1. Create a class called Student:
+				Attributes:
+					name, gender, age, studentID, grade
+
+				Add a constructor that allows user to create object by setting the name of student
+
+				Add a constructor that allows user to create object by setting the name and gender of the student
+
+				Add a constructor that allows user to create object by setting the name and studentID of the student
+
+				Add a constructor that allows user to create object by setting the name, studentID and grade of the student
+
+				Add a constructor that allows user to create object by setting the name, gender and age of the student
+
+				Add a constructor that allows user to create object by setting the name, gende, age and studentID of the student
+
+				Add a constructor that allows user to create object by setting the name, gende, age, studentID and grade of the student
+
+				Actions:
+					toString()
+					study()
+
+
+instance: belong to the object
+		each object has its own copy of the instances (can have multiple copies)
+
+
+static: belongs to the class.
+		There is only one copy os statics thta's shared by all objects of the class	
+
+
+
