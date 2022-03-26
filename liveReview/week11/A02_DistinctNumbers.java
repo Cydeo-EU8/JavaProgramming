@@ -36,9 +36,17 @@ public class A02_DistinctNumbers {
 
         // Collections Utility Class comes with many useful methods
 
-        Collections.sort(list);
+        Collections.sort(list); // to sort your arraylist: in oder to be able to use sort method, your Object Class needs to be comparable
 
         System.out.println(list);
 
+        // max and min numbers inside this arraylist
+        int max = Collections.max(list);
+        int min = Collections.min(list);
+        System.out.println("max = " + max);
+        System.out.println("min = " + min);
+
+        Collections.shuffle(list); // random shuffle
+        System.out.println(list);
     }
 }
