@@ -17,3 +17,10 @@ ArrayList:
 - it only accepts Objects
 - we have to use Wrapper classes
 - Ordered, index based
+
+ArrayList Methods:
+-> how to add element: add(value)
+-> add(index, value):
+-> how to read: get(index)
+-> size: returns the count of elements
+-> contains: checks if the value is in the arraylist

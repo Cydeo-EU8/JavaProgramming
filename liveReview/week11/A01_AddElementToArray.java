@@ -13,13 +13,13 @@ public class A01_AddElementToArray {
 
         browserTypes = addElement(browserTypes,newBrowserOne);
         System.out.println(Arrays.toString(browserTypes));
-        // browserTypes : is reference to our Array Object, and can be reassigned
+        // browserTypes : is reference variable to our Array Object, and can be reassigned
         browserTypes = addElement(browserTypes,newBrowserTwo);
         System.out.println(Arrays.toString(browserTypes));
     }
 
     public static String[] addElement (String[] arr,String element){
-        String [] newArray = new String[arr.length+1];
+        String [] newArray = new String[arr.length+1]; // I am creating a totally a new array
         int i = 0;
         for( ; i< arr.length; i++){
             newArray[i]=arr[i];
