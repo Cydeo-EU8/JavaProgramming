@@ -15,5 +15,11 @@ public class StringManipulatorTest {
 
         System.out.println(objectOne.x); // you need to call the attribute or method so they get into effect
 
+        String str = "oscar";
+        StringManipulator objectThree = new StringManipulator(str);
+        System.out.println(objectThree.str);
+        objectThree.str="rabia";
+        System.out.println(objectThree.str);
+
     }
 }

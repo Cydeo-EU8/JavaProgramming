@@ -34,3 +34,10 @@ TASK: Create a blueprint Class that will have one attribute which is string
        - actions (void methods): manupilate your attribute String
 
 Dot Operator : objectName.  to call attribute and methods
+
+Inside our blueprint class we will add return type method
+
+     * return a  new string made of
+     * 3 copies of the last 2 chars of the original string.
+     * The string length will be at least 2.
+    exp: java-> vavava
