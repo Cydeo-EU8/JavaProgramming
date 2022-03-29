@@ -11,3 +11,20 @@ Topics:
                 Done by developer/human/tester/coder
                 bigger to smaller data type
                 NARROWING
+
+    2.  String Methods:
+
+        charAt(); index and you get in return-> char
+        length() : no parameter -> how many chars in the String
+        replace():
+        replaceFirst()
+        trim()
+        substring
+        lastIndexOf()
+        contains()
+        equals()
+        endsWith()
+        isEmpty()
+        isBlank()
+        toUppercase()
+        toLowercase()
