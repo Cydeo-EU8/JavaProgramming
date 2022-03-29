@@ -26,5 +26,8 @@ public class StringManipulator {
         return str;
     }
 
+    public void reverser(){
+
+    }
 
 }

@@ -41,3 +41,15 @@ Inside our blueprint class we will add return type method
      * 3 copies of the last 2 chars of the original string.
      * The string length will be at least 2.
     exp: java-> vavava
+
+
+ When you get a question that asks for a product
+ *** Product:
+        - a reversed string
+        - unique chars
+        - frequency of chars
+        - duplicate chars
+
+   --- Easy Approach : create an empty bucket (box) -- String, Array
+            will hold my result
+            require an iteration
