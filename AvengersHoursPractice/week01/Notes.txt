@@ -1,0 +1,13 @@
+
+Topics:
+    1. Type Casting
+
+        a. Implicit Casting
+                Done by compiler/Machine/computer
+                smaller to bigger data type
+                NO Data loss
+        b. Explicit Casting
+                There is Data Loss
+                Done by developer/human/tester/coder
+                bigger to smaller data type
+                NARROWING
