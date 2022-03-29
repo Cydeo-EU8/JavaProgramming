@@ -28,3 +28,9 @@ Topics:
         isBlank()
         toUppercase()
         toLowercase()
+
+
+TASK: Create a blueprint Class that will have one attribute which is string
+       - actions (void methods): manupilate your attribute String
+
+Dot Operator : objectName.  to call attribute and methods
