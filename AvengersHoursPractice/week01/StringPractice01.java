@@ -1,5 +1,7 @@
 package week01;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class StringPractice01 {
@@ -19,6 +21,8 @@ public class StringPractice01 {
         firstTwoChars2(str);
 
         System.out.println(firstTwoChars3(str));
+
+        System.out.println(firstTwoChars4(str));
     }
 
     /*
@@ -44,8 +48,19 @@ public class StringPractice01 {
         return  s;
     }
 
-    public static String firstTwoChars4(String str){
+    public static String firstTwoChars4(String str){ // (hello) -> [ h , e , l , l , o]
         char[] cahrArr= str.toCharArray();
-        return ""+cahrArr[0]+cahrArr[1];
+        return (""+cahrArr[0]+cahrArr[1]).toUpperCase();
     }
+
+    public static String firstTwoChars5(String str){
+        char[] cahrArr= str.toCharArray();
+        ArrayList<Character> list = new ArrayList<>();
+        for(Character each: cahrArr){
+            list.add(each);
+        }
+        String s = ""+list.get(0)+list.get(1);
+        return s.toUpperCase();
+    }
+
 }
