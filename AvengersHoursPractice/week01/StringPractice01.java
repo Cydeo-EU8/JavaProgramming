@@ -17,6 +17,8 @@ public class StringPractice01 {
         System.out.println(firstTwoChars(str));
 
         firstTwoChars2(str);
+
+        System.out.println(firstTwoChars3(str));
     }
 
     /*
@@ -34,5 +36,16 @@ public class StringPractice01 {
 
     public static void firstTwoChars2(String str){
         System.out.println(str.toUpperCase().substring(0,2));
+    }
+
+    public static String firstTwoChars3(String str){
+        str = str.toUpperCase();
+        String s = ""+str.charAt(0)+str.charAt(1);
+        return  s;
+    }
+
+    public static String firstTwoChars4(String str){
+        char[] cahrArr= str.toCharArray();
+        return ""+cahrArr[0]+cahrArr[1];
     }
 }
