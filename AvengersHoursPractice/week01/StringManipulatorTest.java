@@ -21,5 +21,10 @@ public class StringManipulatorTest {
         objectThree.str="rabia";
         System.out.println(objectThree.str);
 
+
+        // call the tripler method with our second object
+
+        String password = objectTwo.tripler();
+        System.out.println("password = " + password);
     }
 }
