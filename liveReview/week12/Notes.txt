@@ -44,3 +44,22 @@ name, jobTitle, ID, salary
 	add a constructor to initialize all the fields
 
 	asString()
+
+==============================
+PIQ:
+this.   ----> instance objects values or methods
+this()  ----> used for calling the constructor
+================================
+static methods ---> can be called with className, belongs to class
+        -- Can I call static methods with objects? YES
+
+ Static Method VS Instance Methods
+ 1. Instance method can be only called by object name
+ 2. Static methods CAN NOT reach non-static fields(attributes)
+============================================
+Static Blocks / Static Initializer Block
+--> code in the static lok runs before everything else when laoaded to the memory by Classloader
+we use it to initialize static fields
+
+
+
