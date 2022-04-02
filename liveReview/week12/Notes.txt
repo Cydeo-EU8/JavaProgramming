@@ -1,0 +1,46 @@
+Today's Review Topics:
+    1. Constructors
+    2. Statics vs. Instance
+    3. Access Modifiers
+    4. Garbage Collectors
+    5. Git&GitHub
+=======================================
+methods for creating function
+
+    Access Modifier Specifier returnType methodName(parameters){
+            statements;
+    }
+
+Access Modifiers:
+    * public ---> allows to reach from every other class or packages
+    * private ----> only inside the same class you can reach
+    * default    ----> OOP
+    * protected  -----> OOP
+
+specifier: Static keyword, Final
+
+returnType: void or eny Data Type
+
+PIQ: What are the differences between Constructors and Methods:
+        1. No return type
+
+
+        Constructor: special method, it is a MUST, it is used to create and (maybe)initializing fields of the object
+        Access-Modifier ClassName(parameter){
+            statements;
+        }
+
+object: new ClassName();   --- > we are calling the constructor
+
+instance (multiple copies) variables or methods: each object has it's own copy
+
+static (one copy) : all the objects they have the same copy and share it.
+
+Task 1:
+Employee:
+	attribute
+name, jobTitle, ID, salary
+
+	add a constructor to initialize all the fields
+
+	asString()
