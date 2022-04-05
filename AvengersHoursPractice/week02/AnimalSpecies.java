@@ -34,6 +34,13 @@ public String name;  // instanceVariable
 public int population;
 public int growthRate;
 
+// static variable: living habitat
+    public static String habitat;
+    static {
+        habitat="Earth";
+    }
+
+
 // instance methods:
 
     public void setInfo(String name, int population, int growthRate){
@@ -55,4 +62,12 @@ public int growthRate;
     public int getPopulation(){return this.population;}
     public int getGrowthRate(){return this.growthRate;}
 
+    @Override
+    public String toString() {
+        return "AnimalSpecies{" +
+                "name='" + name + '\'' +
+                ", population=" + population +
+                ", growthRate=" + growthRate +
+                '}';
+    }
 }
