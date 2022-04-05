@@ -4,4 +4,25 @@ Today's Topics:
     Arrays: fixed size, primitive/Object
     Arraylist: flexible, not fized size, stores Object only, comes with many useful methods
 2.Custom Methods
+        Access-Modifier Specifier ReturnType MethodName(Parameter){
+            Statements
+        }
+         Access-Modifier:
+         public: always reachable
+         protected: same package or subclasses(inheritance) in the different package
+         default : same package
+         private: same class
 3. Class&Object
+
+        What is Class?: Template/blueprint, can be created without object.
+
+        instanceVariable: should be created outside all the methods and they are attributes of objects
+        initialization is NOT Mandatory; we initialize with object creation, they default values
+        we can acccess via Objects
+        Many copies
+
+        Car c = new Car();
+        c.instanceVariableName;
+
+        staticVariable = Belongs to class, ONE copy, reach by ClassName and ObjectName
+        initialization is NOT Mandatory;
