@@ -1,0 +1,7 @@
+Today's Topics:
+1. ArrayList
+    Arraylist is a resizeable Array implementation, List Interface
+    Arrays: fixed size, primitive/Object
+    Arraylist: flexible, not fized size, stores Object only, comes with many useful methods
+2.Custom Methods
+3. Class&Object
