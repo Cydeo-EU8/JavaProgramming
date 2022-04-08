@@ -1,0 +1,196 @@
+Java Day39
+Topics: Recap:
+			OOP Encapsulation
+			OOP Inheritance
+
+package name: day39_Recap
+
+
+Method Overriding: giving different implementations to the method
+				
+					MUST happen in the child class
+
+					return-type, method name, parameter MUST be same
+
+					Access modifier need to be same or more visible
+								public > protected > default
+
+					Method we can not override: private, static, final
+
+					ONLY the instance methods (not final & not private) can be overriden
+
+					@Overriden annotation must be applicable
+
+
+
+
+next Thursday:
+	protected access modifier
+	final keyword
+
+next Friday:
+	Exceptions & Exception handlings
+
+-------------------------------------
+
+
+Shape:
+	variables:
+			name
+
+	Encapsulate the field
+
+	Add a constructor to set the filed
+
+	Methods:
+		area(){}
+		perimeter(){}
+
+
+
+Square extends Shape:
+	variables:
+		side;
+
+	Encapsulate the field
+
+	Add a constructor to set the filed
+
+	area(): side * side
+	perimeter(): side * 4
+	toString(): side, area, perimeter
+
+
+Rectangle extends Shape:
+	variables:
+		length
+		width
+
+	Encapsulate the fields
+
+	Add a constructor to set the filed
+
+	area(): length * width
+	perimeter(): 2 * ( width + length)
+	toString(): length, width, area, perimeter
+	
+
+Circle extends Shape:
+		variables:
+			radius
+			pi (static)
+
+		Encapsulate the field
+
+		Add a constructor to set the filed
+
+		area(): radius * radius * pi
+		perimeter(): 2 * radius * pi
+		toString(): r, pi, area, perimeter
+
+
+
+
+OOP:
+	Encapsulation
+	Inheritance
+
+	Abstraction
+	Polymorphism
+
+
+
+
+
+
+
+class A{
+	method(){
+			sout(A);
+	}
+}
+
+
+class B extends A{
+	method(){
+			sout(B);
+	}
+}
+
+
+--------------------------------------------
+
+CydeoTask:
+    1. Create a class named Person:
+            Variables:
+                name, age, gender
+
+            Encapsulate all the fields
+
+            Add a constructor to set all the fields
+
+            Methods:
+                eat()
+                drink()
+                sleep()
+                toString()
+
+    2. Create a sub class of Person named Employee:
+            Extra variables:
+                employeeId, jobTitle, salary
+
+            Encapsulate all the fields
+
+            Add a constructor to set all the fields
+
+            Methods:
+                work()
+                toString()
+
+    3. Create a sub class of Employee named Tester
+
+            Override the work method 
+
+            Extra methods:
+                createTicket()
+
+    4. Create a sub class of Employee named Developer
+
+            Override the work method 
+
+            Extra methods:
+                fixingBugs()
+
+    5. Create a sub class of Employee named Teacher
+
+            Override the work method 
+
+
+    6. Create a sub class of Person named Student
+
+            Extra variables:
+                studentId, fieldOfStudy
+
+            Encapsulate all the fields
+
+            Add a constructor to set all the fields
+
+            Encapsulate all the fields
+
+            Methods:
+                study()
+
+    7. Create a class named Cydeo:
+            create objects of Tester, Developer,Teacher, Student
+
+            test all the functions of each objects
+
+            Analyze the relationships between the classes 
+
+
+
+
+
+
+
+
