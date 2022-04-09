@@ -8,6 +8,7 @@
    - create public getter: to read the data 
     - create public setter: to write the data
  3. Encapsulation helps us to manipulate the data field with certain conditions(we will apply this concept with Singleton Driver Class Design)   
+4. conditions in setter method, we usually customize getter method output format, return the data in a certain format
 
 ###Read Only
    - Only provide getter to your class, and it will be Read-Only (immutable: not changing)
@@ -71,3 +72,5 @@ Constructors:
 
 Let's make our class read-only
 --- immutable
+``
+
