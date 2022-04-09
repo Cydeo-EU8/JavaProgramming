@@ -72,5 +72,23 @@ Constructors:
 
 Let's make our class read-only
 --- immutable
-``
+````
+##Inheritance
+1. A class inherit the properties/methods of parent class
+2. we use extends keyword for it
+3. Builds a **'IS A'** relationship
 
+### What can be inherited?
+- All public variables, methods
+- All protected var. and met.
+- All default var. and mets. only if super and sub class are in the same package
+### What can Not be inherited?
+- private variables and methods, however you can reach these with public getter/setters
+- constructors: sub class first calls super class constructor
+
+````
+We will create a Book parent class
+title,type,author,price
+- child classes: AudioBook, PaperBook, EBook
+
+``
