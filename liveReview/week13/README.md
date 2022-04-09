@@ -69,24 +69,5 @@ Constructors:
 - accepts firstName, lastName, age parameters and assigns values to encapsulated instance variable
   try to use this. keyword
 
-Examples:
-
-Person person = new Person();
-
-System.out.println(person.getFirstName()); //"undefined"
-System.out.println(person.getLastName()); //"undefined"
-System.out.println(person.getAge()); // -1
-System.out.println(person.toString()); //"undefined | undefined | -1"
-
-person.setFirstName("John");
-person.setLastName("Doe");
-person.setAge(44);
-
-System.out.println(person.toString() ); // "John | Doe | 44"
-
-Person person = new Person("Fatima", "Lee", 22);
-
-System.out.println(person.getFirstName()); //"Fatima"
-System.out.println(person.getLastName()); //"Lee"
-System.out.println(person.getAge()); // 22
-System.out.println(person.toString()); //"Fatima | Lee | 22"
+Let's make our class read-only
+--- immutable
