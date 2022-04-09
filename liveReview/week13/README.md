@@ -91,4 +91,5 @@ We will create a Book parent class
 title,type,author,price
 - child classes: AudioBook, PaperBook, EBook
 
-``
+````
+**In real life application we will mostly use 'protected' access modifier for inheritance** 
