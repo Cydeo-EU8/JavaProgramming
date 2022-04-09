@@ -13,7 +13,9 @@ public class Credentials {
         return "condition has NOT been satisfied";
     }
 
-    public String getPassWord(){return this.passWord;}
+    public String getPassWord(){
+        // the system maybe checks if you are admin
+        return this.passWord;}
 
 
     public void setPassWord(String newPassword){
