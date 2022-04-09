@@ -4,7 +4,9 @@ public class Ebook extends Book{
     int size;
     int pages;
 
-
+public Ebook(){
+    super();
+}
 
     public void readBook(){
         System.out.println("Reading the book from my Tablet");

@@ -13,11 +13,19 @@ public class Book {
         this.price = price;
     }
 
-   public Book(){}
+  public Book(){}
 
     public void buy(){
         System.out.println("Buy this product");
     }
 
-
+    @Override
+    public String toString() {
+        return "Book{" +
+                "title='" + title + '\'' +
+                ", type='" + type + '\'' +
+                ", author='" + author + '\'' +
+                ", price=" + price +
+                '}';
+    }
 }
