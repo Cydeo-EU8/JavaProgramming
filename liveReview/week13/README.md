@@ -93,3 +93,13 @@ title,type,author,price
 
 ````
 **In real life application we will mostly use 'protected' access modifier for inheritance** 
+
+### Benefits:
+1. Encapsulation: protect instance variables from invalid values
+2. Inheritance: it provides code reusability and maintainability
+3. maintainability: we put common fields and methods to parent class (one place)
+   (Page Object models: we will have a parent class)
+   
+### Constructors:
+1. superclass constructor always execute before the subclass constructor
+2. this() also needs to be the first statement, super() and this() can NOT be in the same constructor
