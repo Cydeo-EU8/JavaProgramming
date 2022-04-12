@@ -13,10 +13,14 @@ public class GroceryListMain {
 
         Scanner input = new Scanner(System.in);
 
-        int choice = input.nextInt();
+
 
 
         while (Continue){
+
+            System.out.println("Enter your NEXT choice: ");
+            int choice = input.nextInt();
+
                 switch (choice){
                     case 0:
                         printInstructions();
@@ -35,6 +39,16 @@ public class GroceryListMain {
                         System.out.println("Enter a replacement item : ");
                         String newItem = input.nextLine();
                         shoppingList.modifyGroceryItem(itemNo,newItem);
+                        break;
+                    case 4:
+                        System.out.println("Enter item number that will be removed :");
+                        int itemNoRemove = input.nextInt();
+                        shoppingList.removeGroceryItem(itemNoRemove);
+                        break;
+                    case 5:
+                        System.out.println("Put the itm name that you are looking for : ");
+                        String searchItem = input.nextLine();
+                        System.out.println(shoppingList.findItem(searchItem));
                     case 6:
                         Continue = false;
                         break;
