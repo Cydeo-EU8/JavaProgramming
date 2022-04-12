@@ -1,0 +1,16 @@
+Today's Topics:
+    - We will create an app that will helps us prepare a shopping list and we can print out this list
+    - Class&Object
+    - ArrayList
+    - String Manipulation
+    - Loops & Switch statements
+
+ 1. Create a custom class called GroceryList
+        Instance Variable
+        - we have only one attribute: an Arraylist named 'groceryList'
+        Instance Methods:
+        - addGroceryItem(String item)
+        - printGroceryList(toString)
+        - modify
+        - remove
+        - findItem
