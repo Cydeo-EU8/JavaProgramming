@@ -13,13 +13,11 @@ public class GroceryListMain {
 
         Scanner input = new Scanner(System.in);
 
-
-
-
         while (Continue){
 
             System.out.println("Enter your NEXT choice: ");
             int choice = input.nextInt();
+            input.nextLine();
 
                 switch (choice){
                     case 0:
@@ -43,12 +41,14 @@ public class GroceryListMain {
                     case 4:
                         System.out.println("Enter item number that will be removed :");
                         int itemNoRemove = input.nextInt();
+                        input.nextLine();
                         shoppingList.removeGroceryItem(itemNoRemove);
                         break;
                     case 5:
-                        System.out.println("Put the itm name that you are looking for : ");
+                        System.out.println("Put the item name that you are looking for : ");
                         String searchItem = input.nextLine();
                         System.out.println(shoppingList.findItem(searchItem));
+                        break;
                     case 6:
                         Continue = false;
                         break;

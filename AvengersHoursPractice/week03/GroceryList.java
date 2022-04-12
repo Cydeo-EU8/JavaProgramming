@@ -44,7 +44,7 @@ public class GroceryList { // blueprint for all my shopping Lists
         // if I find item it will return index of it, otherwise we will get -1
 
         if(position>=0){
-            searchResult = searchItem+ "item found at line "+(position+1);
+            searchResult = searchItem+ " item found at line "+(position+1);
         }
 
         return searchResult;
