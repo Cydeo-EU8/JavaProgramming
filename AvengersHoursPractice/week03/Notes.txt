@@ -14,3 +14,9 @@ Today's Topics:
         - modify
         - remove
         - findItem
+
+2. In the Main class that will implement the blueprint
+    - print instructions to user as a menu to select from possible options:
+           - print instructions
+           - add new item
+           - remove item ...etc
