@@ -1,14 +1,44 @@
 package week03;
 
+import java.util.Scanner;
+
 public class GroceryListMain {
     public static void main(String[] args) {
+
+        GroceryList shoppingList = new GroceryList();
 
         printInstructions();
 
         boolean Continue = true;
 
-        while (Continue){
+        Scanner input = new Scanner(System.in);
 
+        int choice = input.nextInt();
+
+
+        while (Continue){
+                switch (choice){
+                    case 0:
+                        printInstructions();
+                        break;
+                    case 1:
+                        System.out.println(shoppingList);
+                        break;
+                    case 2:
+                        System.out.println("Enter your grocery item: ");
+                        shoppingList.addGroceryList(input.nextLine());
+                        break;
+                    case 3:
+                        System.out.println("Enter item number: ");
+                        int itemNo = input.nextInt();
+                        input.nextLine();
+                        System.out.println("Enter a replacement item : ");
+                        String newItem = input.nextLine();
+                        shoppingList.modifyGroceryItem(itemNo,newItem);
+                    case 6:
+                        Continue = false;
+                        break;
+                }
         }
     }
 
