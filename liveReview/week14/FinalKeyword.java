@@ -1,5 +1,7 @@
 package week14;
 
+import java.util.ArrayList;
+
 public class FinalKeyword {
 
     final int b;  // initialization is mandatory
@@ -24,5 +26,28 @@ public class FinalKeyword {
         final int a;
         a=100;
         System.out.println(a);
+
+        // Final Arrays
+
+        final int[] nums = {1,2,3};
+        System.out.println(nums[0]);
+        nums[0]=5;
+        System.out.println(nums[0]);
+
+     //   nums = new int[]{5,6,7}; // We can not assign a new array object to our array reference variable ----> Error
+
+        // Final ArrayList
+        final ArrayList<String> colors = new ArrayList<>();
+
+        colors.add("Orange");
+        colors.add("red");
+
+        colors.remove(0);
+
+       // colors = new ArrayList<>(); ----> Error
+
+        // What is becoming final :
+       // final keyword is used for 'Variable'
+
     }
 }
