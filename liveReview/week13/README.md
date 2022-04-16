@@ -85,6 +85,7 @@ Let's make our class read-only
 ### What can Not be inherited?
 - private variables and methods, however you can reach these with public getter/setters
 - constructors: sub class first calls super class constructor
+- Final class can NOT be inherited
 
 ````
 We will create a Book parent class
