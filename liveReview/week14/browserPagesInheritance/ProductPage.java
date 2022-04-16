@@ -12,7 +12,9 @@ public class ProductPage extends AmazonHomePage {
     @Override   // annotation should be applicable to the method
     public void shopFor(String product){
         super.product=product;
-        System.out.println("Automating "+getName()); // which browser we are automating
+        System.out.println("Automating "+super.getName()); // which browser we are automating
         System.out.println("Adding "+quantity+" amount of "+super.product+" to cart");
     }
+
+
 }

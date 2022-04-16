@@ -2,5 +2,21 @@ Today's Topics:
     - Inheritance
             * We will try to imitate like we are testing Amazon Web Page Shopping Feature
             - Parent Class : Browser
-            -
+
+  OverRiding: When you need more specialized method for the child class you override the method in parent class.
+  exp: toString
+
+  Rules for Overriding: (PIQ)
+    - there must be IS-A relationship
+    - method names must be same (shopFor)
+    - same parameter
+    - access modifier should be same or more visible
+    - Return Type : for primitive it must be same, for object type has to be covariant
+
+  What are the differences between Overloading and Overriding? PIQ
+
+Method Overloading
+Method Overriding
+Method Hiding (overriding the static methods)
+
     - Final Key Word
