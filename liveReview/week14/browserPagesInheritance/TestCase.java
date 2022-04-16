@@ -32,11 +32,12 @@ public class TestCase {
 
         cartPage.setName("Firefox");  // There is already an open browser : Chrome
 
+        // I needed to closeBrowser
         cartPage.closeBrowser();
 
         cartPage.setName("Firefox");
         System.out.println("I am automating : "+cartPage.getName());
-
+        System.out.println("I am automating : "+amazonHomePage.getName());
 
 
 

@@ -1,6 +1,6 @@
 package week14.browserPagesInheritance;
 
-public class AmazonHomePage extends Browser{
+public class AmazonHomePage extends Browser{ // you CANNOT inherit from final class
 
     public String product;
 
@@ -13,6 +13,8 @@ public class AmazonHomePage extends Browser{
         System.out.println("Navigating to "+link+" using "+super.getName());
     }
 
+
+    // final void shopFor(String product){} compiler error you CANNOT override final methods
     void shopFor(String product){
         this.product=product;  // instead of initializing in the constructor I can do it in this method as well
         System.out.println("Navigating to "+this.product+" 's Page");
