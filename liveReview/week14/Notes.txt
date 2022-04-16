@@ -19,4 +19,17 @@ Method Overloading
 Method Overriding
 Method Hiding (overriding the static methods)
 
+Inheritance Types:
+    Single Inheritance: class AmazonHomePage extends Browser
+    Multi-Level: class Product Page extends class AmazonHomePage extends Browser
+    Hierarchical Inheritance: Product and Cart page extends AmazonHomePage
+    Multiple Inheritance ??????? Not possible with regular JAVA classes
+    (possible with Interfaces)
+
+Let's create a Test Case together:
+      1. I need to set my browser and OS type
+      2. Navigate to App's Page
+      3.
+
+
     - Final Key Word
