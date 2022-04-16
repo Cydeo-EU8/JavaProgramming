@@ -9,6 +9,7 @@ public class Browser {
         browserType=name;
     }
 
+
     static {
         operatingSystem="Windows";
     }
@@ -17,7 +18,7 @@ public class Browser {
         return browserType;
     }
 
-    public void closeBrowser(){
+    public void closeBrowser(){  // this method is created so we can use before setting a new one
         browserType=null;
     }
 
