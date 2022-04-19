@@ -1,0 +1,6 @@
+Inheritance :
+ Builds IS-A relationship: Between OnSaleItem and Item class
+ onsaleitem is an Item
+
+ We also have HAS A relationship
+        TJMaxx class holds variables/objects from Item and OnSaleItem classes

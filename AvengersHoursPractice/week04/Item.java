@@ -22,7 +22,7 @@ Item > OnSaleItem > TJMaxx
 
     /**
      * public constructor with:
-     * @param name
+     * @param n
      * @param quantity
      * @param catalogNumber
      * @param price
