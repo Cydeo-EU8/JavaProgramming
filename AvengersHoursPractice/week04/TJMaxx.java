@@ -81,6 +81,21 @@ public class TJMaxx {
      * @return
      */
 
+    public ArrayList<String> getAllItemNames(){
+        ArrayList<String> names = new ArrayList<>();
+        for (int i = 0; i < getCountItems() ; i++) {
+            names.add(items.get(i).getName());  // items.get(0) ----> What is it? Item Object: getName()
+         //    items.get(i).setPrice(24.5); we can use every method of Item class
+        }
+        for (int i = 0; i < getCountItems() ; i++) {
+            names.add(onSaleItems.get(i).getName()); // onSaleItems.get(0)---> OnSaleItem object
+        }
+//        items.addAll(onSaleItems);
+//        for(Item item: items){
+//            names.add(item.getName());
+//        }
+          return names;
+    }
 
     /**
      * gets catalog number and returns price for the item
@@ -89,7 +104,19 @@ public class TJMaxx {
      * @returns 0.0 if product cannot be found with that catalognumber
      */
 
-
+        public double getPriceofItem(int catalogNumber){
+            for(Item item: items){
+                   if(item.getCatalogNumber()==catalogNumber){  // item found
+                       return item.getPrice();
+                   }
+            }
+            for(Item item: onSaleItems){  // since onSaleItem objects are also an object of Item class as well
+                if(item.getCatalogNumber()==catalogNumber){  // item found
+                    return item.getPrice();
+                }
+            }
+            return 0.0;
+        }
     /**
      * accepts a name then searches
      * amoung onSaleItems. Once it finds, the method will return
@@ -98,6 +125,14 @@ public class TJMaxx {
      * @return
      */
 
+    public OnSaleItem getItemName(String name){
+       for(OnSaleItem item : onSaleItems){
+           if(item.getName().equals(name)){
+               return item;
+           }
+       }
+       return null;
+    }
 
     /**
      * removes the item with matching catalogNumber

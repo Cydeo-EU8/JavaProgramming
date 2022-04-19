@@ -79,7 +79,9 @@ Item > OnSaleItem > TJMaxx
     }
 
 
-
+    public int getCatalogNumber() {
+        return catalogNumber;
+    }
 
     /**
      * Override toString:
