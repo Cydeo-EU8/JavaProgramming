@@ -115,6 +115,7 @@ public class TJMaxx {
                     return item.getPrice();
                 }
             }
+
             return 0.0;
         }
     /**
@@ -125,12 +126,14 @@ public class TJMaxx {
      * @return
      */
 
-    public OnSaleItem getItemName(String name){
+    public OnSaleItem getItemName(String name)  {
        for(OnSaleItem item : onSaleItems){
            if(item.getName().equals(name)){
                return item;
            }
        }
+
+
        return null;
     }
 
