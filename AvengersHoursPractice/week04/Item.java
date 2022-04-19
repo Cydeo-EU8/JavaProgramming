@@ -30,6 +30,12 @@ Item > OnSaleItem > TJMaxx
      * assigns to values to instance variables
      */
 
+    public Item(String n, int quantity, double price, int catalogNumber){
+        name=n; // if local variable is deifferent name then we don't have to use this keyword
+        this.quantity=quantity;
+        this.price=price;
+        this.catalogNumber=catalogNumber;
+    }
 
 
     /**
@@ -37,7 +43,9 @@ Item > OnSaleItem > TJMaxx
      * @param name
      */
 
-
+    public void setName(String name){
+        this.name=name;
+    }
 
 
     /**
@@ -45,6 +53,9 @@ Item > OnSaleItem > TJMaxx
      * @param price
      */
 
+    public void setPrice(double price){
+        this.price=price;
+    }
 
 
     /**
@@ -52,7 +63,9 @@ Item > OnSaleItem > TJMaxx
      * @return
      */
 
-
+    public double getPrice(){
+        return this.price;
+    }
 
 
     /**
@@ -61,6 +74,9 @@ Item > OnSaleItem > TJMaxx
      */
 
 
+    public String getName(){
+        return this.name;
+    }
 
 
 
@@ -71,5 +87,11 @@ Item > OnSaleItem > TJMaxx
      * "Regular Item{name='Item name', catalogNumber=1234, quantity=5, price=9.99}"
      */
 
+    public String toString(){
+        return "Regular Item{name='"+name
+                +"', catalogNumber="+catalogNumber
+                +", quantity="+quantity
+                +", price="+price+"}";
+    }
 
 }
