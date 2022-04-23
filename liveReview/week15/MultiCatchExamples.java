@@ -6,7 +6,7 @@ public class MultiCatchExamples {
         // more specialized exception class statement should be first in the order
 
         String word = "Java";  // length is 4
-
+       word = null;
         try {
             System.out.println(word.substring(20));  // unchecked exception
         }catch (StringIndexOutOfBoundsException e){
