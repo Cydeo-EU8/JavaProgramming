@@ -8,10 +8,12 @@ public class ElementaryStudentTests {
        try {
            student.setName("Max");
            student.setAge(1);   // will throw an exception
+           System.out.println(student);
        }catch (Exception e){
            e.printStackTrace();
        }
 
+        System.out.println(student);
 
         System.out.println("Some more executions");
         System.out.println("Some more executions");

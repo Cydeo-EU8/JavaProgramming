@@ -35,4 +35,12 @@ public class ElementaryStudent {
             throw new IllegalArgumentException("Age cannot be less than 5 or greater than 12");
         }
     }
+
+    @Override
+    public String toString() {
+        return "ElementaryStudent{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }
