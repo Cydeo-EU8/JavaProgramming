@@ -42,7 +42,7 @@ public class WebDriver {
         System.out.println("Clicking on "+name.locator);
     }
 
-    public Locators navigateTo(String link){
+    Locators navigateTo(String link){
         Locators locators = new Locators(link);
         return locators;
     }
