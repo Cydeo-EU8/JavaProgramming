@@ -2,6 +2,11 @@ package week16;
 
 public abstract class Exercise {
 
+    double weight;
+
+    public Exercise(double weight){
+        this.weight=weight;
+    }
     // You don't have to have abstract method at all, and you can still declare your class as abstract
 
     public void start(){

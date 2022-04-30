@@ -5,9 +5,9 @@ public class AtTheGym {
 
 //        Exercise exercise = new Exercise() ; // can NOT be instantiated - NO OBJECTS of this class
 
-        Running running = new Running();
-        Swimming swimming = new Swimming();
-        FreeWeight freeWeight = new FreeWeight();
+        Running running = new Running(90);
+        Swimming swimming = new Swimming(90);
+        FreeWeight freeWeight = new FreeWeight(90);
 
         // polymorphism
      //   Exercise polyObject = new Running(); next week topic

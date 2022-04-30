@@ -1,6 +1,10 @@
 package week16;
 
 public class FreeWeight extends Lifting{
+    public FreeWeight(double weight) {
+        super(weight);
+    }
+
     @Override
     void perform() {
         System.out.println("Lifting Free Weight with dumbbells");
@@ -8,7 +12,7 @@ public class FreeWeight extends Lifting{
 
     @Override
     int getCaloriesCount(int minutes) {
-        return minutes*6;
+        return (int) (minutes*6*(weight/100));
     }
 
     @Override
