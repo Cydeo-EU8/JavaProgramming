@@ -14,6 +14,14 @@ public class AtTheGym {
 
         running.start();
         running.perform();
+        System.out.println("Running for 30 minutes- calories: "+running.getCaloriesCount(30));
 
+        swimming.start();
+        swimming.perform();
+        System.out.println("Swimming for 30 minutes : "+swimming.getCaloriesCount(30));
+
+        freeWeight.start();
+        freeWeight.perform();
+        System.out.println("Freeweight exercise for 30 minutes - Calories "+freeWeight.getCaloriesCount(30));
     }
 }
