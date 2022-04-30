@@ -8,12 +8,12 @@ public class FreeWeight extends Lifting{
 
     @Override
     int getCaloriesCount(int minutes) {
-        return 0;
+        return minutes*6;
     }
 
     @Override
     public void endLift() {
-
+        System.out.println("Carefully re-rack dumbbells");
     }
     /*
     How many methods does this class have to implement
