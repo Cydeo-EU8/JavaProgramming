@@ -1,0 +1,229 @@
+Java Day47
+Topics: 1. OOP Polymorphism Continue:
+				Reference Type castings
+		2. OOP Review
+		
+
+Package name: day47_Polymoprhism
+
+
+4 apps you should have on Cydeo Dashboard:
+		1. Canvas
+		2. Discord
+		3. Jira
+		4. Github B25
+
+
+
+Polymorphism (Many forms): Ability of the objects to take on many forms
+			  "IS A relation" is a must
+
+			  Reference type is parent class/interface, and object type is child class
+
+			  Reference type decides what can be accessed/called
+
+			  Object type decides which implementation to execute
+
+			    WebDriver driver = new FireFoxDriver();
+		  		driver.takeScreenShot();
+
+			  Animal animal = new Tiger();
+
+			  Employee employee = new Developer();
+
+
+
+
+Dynamic Polymorphism: Method overriding
+					 One method with multiple implementations
+
+					 eat():
+
+					 implementation1: bakla
+					 implementation2: Java
+					 ...
+
+Static Polymorphism: Method overloading
+					Multiple methods with same name
+					each method has one implementation ONLY
+
+					add(byte, byte)
+					add(integer, integer)
+					add(Decimal, Decimal)
+
+
+casting: converting one type to another
+
+2 Types of Type castings:
+		
+		1. Primitive Type castings: must happen between primitives
+
+				1.1 Implicit primitive type casting: casting smaller primitive type to large primitive type (done Implicitly)
+
+									int a = 100;
+									double b = a; // implicit casting
+
+
+				1.2 Explicit primitive type casting: casting larger primitive type to smaller primitive type (done explicitly)
+
+									long a = 100;
+									short b = (short)a; //explicit casting
+
+
+		2. Reference Type castings: THERE MUST BE INHERITANCE
+
+				2.1 Upcasting: casting sub type to the super type (done Implicitly)
+
+							Car car = new BMW();
+
+				2.2 downcasting: casting super type to sub type (done explicitly)
+
+							Animal animal = new Dog();
+
+							( (Dog)animal ).bark();
+
+
+
+
+OOP: Object Oreinted Programming
+
+	Advantages:
+		improves rusuability
+		easy to maintain
+		less memory
+		less codes
+		avoid duplication
+		Flexible
+
+	OOP tasks:
+		Animal Task
+		Employee Task
+		Car Task
+		Shape Task
+		Phone Task
+		Browser Task
+		...
+
+
+		1. Encapsulation: hiding the data by giving private access modifier
+				
+					getter (raed)
+					setter (write)
+
+					If private data is final, we can not generate setter
+
+					POJO
+
+		2. Inheritance: Building "IS A" relationship (parent & child)
+
+				child class: inherits all the variable & methods (that are visible) from the parent class
+
+				parent class: does not inherit any thing from child class
+
+
+				Object class is the parent of all the classes by deafult
+
+
+				abstract TesteBase
+					driver
+
+					setUp (@BeforeMethod):
+						set the driver
+						open the browser
+						maximize the window
+						implicitWait
+						navigateToURL
+
+
+					tearDown (@AfterMethod):
+						TakeScreenShot (If stailed)
+						Quit
+
+
+					TestClass1 extends TestBase
+
+
+					TestClass2 extends TestBase
+
+
+				abstract BasePage
+
+
+		3. Abstraction: hiding the implementation details
+
+					Abstract method: method without the body
+									meant to be overriden
+
+					2 ways:
+
+						Abstract class: not concrete ==> No objects
+										meant to be parent
+
+										class can extend one abstract class ONLY
+
+						Interface: NOT a class. meant to be implemented
+								used for providing additional methods that classes need
+
+								100% abstraction
+
+								public is the ONLY access modifier
+
+								class can implement multiple interfaces
+
+								Can Have:
+									Variable: static & final ONLY
+									Methods: abstract method, static method, default method
+
+					WebDriver
+					WebElement
+					TakeScreenShot
+					JavaScriptExecuter
+					List
+					Set
+					...
+
+
+		4. Polymorphism: Ability of the objects to take on many forms
+
+						Shape shape = new Circle();
+						shape.area()
+
+
+
+
+
+
+Method Overriding vs Method Overloading
+
+
+
+Employee employee = new Tester();
+employee.testing()
+
+
+
+
+ParentClass
+	static void method1(){
+		"Parent version"
+	}
+
+
+ChildClass extends ParentClass
+
+	static void method1(){
+		"Child version"
+	}
+
+
+
+Short videos:
+	1.Thread, Process, Synchronized
+	2. Collection Intro
+
+
+
+
+
+
+
