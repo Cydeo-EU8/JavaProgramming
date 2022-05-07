@@ -20,11 +20,39 @@ class Chicken extends Animal implements Edible{
 
     @Override
     public String howToEat() {
-        return null;
+        return "Chicken : Fry it";
     }
 
     @Override
     public String sound() {
+        return "Chicken: cock-a-doodle-doo";
+    }
+}
+
+class Tiger extends Animal{
+
+    @Override
+    public String sound() {
         return null;
+    }
+}
+
+abstract class Fruit implements Edible{ // abstract class implements interface
+
+}
+
+class Apple extends Fruit{
+
+    @Override
+    public String howToEat() {
+        return "Apple: make apple cider";
+    }
+}
+
+class Orange extends Fruit{
+
+    @Override
+    public String howToEat() {
+        return "Orange: make orange juice";
     }
 }
