@@ -25,4 +25,8 @@ public class ChromeDriver implements WebDriver{
     public String getTitle() {
         return "EU8 UI Automation";
     }
+
+    public void someUniqueMethod(){
+        System.out.println("I am just belonging to ChromeDriver class");
+    }
 }

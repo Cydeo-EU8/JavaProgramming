@@ -24,4 +24,8 @@ public class FirefoxDriver implements WebDriver{
     public String getTitle() {
         return "EU8 UI Automation";
     }
+
+    public void someUniqueMethodforFirefox(){
+        System.out.println("I am just belonging to FirefoxDriver class");
+    }
 }
