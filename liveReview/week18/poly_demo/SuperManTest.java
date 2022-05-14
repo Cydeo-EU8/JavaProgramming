@@ -27,13 +27,22 @@ NOTE: Reference type decides what can be accessible. Object type decides to use 
         superManThree.work("QA");
         superManThree.getPaid();
 
-        boolean b1 = superManOne instanceof Worker;
-        boolean b2 = superManTwo instanceof Parent;
+        boolean b1 = superManOne instanceof Father;
+        boolean b2 = superManTwo instanceof Father;
         boolean b3 = superManThree instanceof Father;
 
         System.out.println("b1 = " + b1);
         System.out.println("b2 = " + b2);
         System.out.println("b3 = " + b3);
+
+        // Up-Casting Examples
+        ((Worker)superManOne).work("Engineer");
+        ((Worker)superManOne).getPaid();
+
+        ((Parent)superManTwo).raiseKid();
+        ((Parent)superManTwo).playWithKid();
+        ((Parent)superManTwo).feedKid();
+
 
     }
 }
