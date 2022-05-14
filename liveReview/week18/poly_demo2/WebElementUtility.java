@@ -7,7 +7,7 @@ public class WebElementUtility {
 
     public static void clickElement(WebElement element){
         System.out.println("Clicking on the Element");
-        element.click();  // our eleent object is a polyMorphic object and can reach either InputField or Links class click implementation
+        element.click();  // our element object is a polyMorphic object and can reach either InputField or Links class click implementation
     }
 
     public static WebElement getLinkWithText(String txt){
