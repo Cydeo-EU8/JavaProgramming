@@ -35,7 +35,7 @@ NOTE: Reference type decides what can be accessible. Object type decides to use 
         System.out.println("b2 = " + b2);
         System.out.println("b3 = " + b3);
 
-        // Up-Casting Examples
+        // Explicit-Casting Examples
         ((Worker)superManOne).work("Engineer");
         ((Worker)superManOne).getPaid();
 
