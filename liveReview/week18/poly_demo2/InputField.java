@@ -8,16 +8,18 @@ public class InputField implements WebElement{
         }
     @Override
     public void sendKeys(String txt) {
-
+        System.out.println("Typing into input field "+txt);
     }
 
     @Override
     public void click() {
-
+        System.out.println("Clicking on the input field");
     }
 
     @Override
     public String getText() {
-        return null;
+        System.out.println("getting text of input field");
+            return "JAVA";
     }
+
 }
