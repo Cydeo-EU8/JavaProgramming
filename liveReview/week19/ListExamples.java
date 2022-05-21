@@ -2,7 +2,7 @@ package week19;
 
 import java.util.*;
 
-public class CollectionsExamples {
+public class ListExamples {
     public static void main(String[] args) {
 
         List<String> listOne = new ArrayList<>(); // polymorphic way
@@ -54,5 +54,27 @@ public class CollectionsExamples {
 // ***** Likewise TreeSet does not accept null value since internally using Sorting
  // Any collection framework which has some type sorting  -----> DOES NOT ACCEPT NULL Values
 
+        for (int i = 0; i < listThree.size(); ) {   // 9 --> 8 ---->.....0 size becomes zero that is why we get out of loop, we don't need i++ increment
+            int x = ((Stack<Integer>) listThree).pop();
+            System.out.println("Next number = " + x);
+         }
+
+        List<Integer> listFour = new LinkedList<>();
+        listFour.add(10);
+        listFour.addAll(Arrays.asList(20,30,13,11));
+        /*
+        Methods that are in concrete LinkList Class
+        addFirst();
+        addLast();
+        poll();
+         */
+        ((LinkedList<Integer>) listFour).addFirst(1);
+        ((LinkedList<Integer>) listFour).addLast(100);
+        System.out.println("listFour = " + listFour);
+
+        // since we can cast the list to LinkList it allows us to use Deque methods such as poll() method
+       int x =  ((LinkedList<Integer>) listFour).poll();
+        System.out.println("x = " + x);
+        System.out.println("listFour = " + listFour);
     }
 }
