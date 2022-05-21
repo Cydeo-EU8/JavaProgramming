@@ -27,5 +27,12 @@ public class QueueExamples {
         }
         System.out.println("cities.size() = " + cities.size());
 
+        for (int i = 0; i < citiesLinkedList.size(); ) {
+            // FIFO
+            System.out.println(citiesLinkedList.poll()); // it did not require casting
+
+        }
+        System.out.println("citiesLinkedList.size() = " + citiesLinkedList.size());
+
     }
 }
