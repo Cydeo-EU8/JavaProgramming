@@ -1,5 +1,6 @@
 package week06;
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.TreeSet;
@@ -7,11 +8,12 @@ import java.util.TreeSet;
 public class SetOfProducts {
     public static void main(String[] args) {
 
-        Set<Product> products = new TreeSet<>() ;  // random order
+        Set<Product> products = new TreeSet<>() ;  //
 
         /*
         Set : does not keep duplicate results
-        TreeSet: it is ordered ---> However in order to be able to use this your class has to extend compareable interface
+        HashSet : random order
+        TreeSet: it is ordered ---> However in order to be able to use this your class has to extend comparable interface
         LinkedHashSet: keeps insertion order
          */
 
@@ -29,6 +31,10 @@ public class SetOfProducts {
         }
 
         System.out.println(products);
+
+        Set<Integer> nums = new TreeSet<>();
+        nums.addAll(Arrays.asList(3,67,34,56,19));
+        System.out.println(nums);
 
     }
 }
