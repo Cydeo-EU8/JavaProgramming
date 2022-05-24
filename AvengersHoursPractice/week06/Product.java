@@ -1,8 +1,8 @@
 package week06;
 
-public class Product {
-    private String name;
-    private double price;
+public class Product implements Comparable<Product> {
+    public String name;
+    public double price;
 
     public Product(String name, double price){
         this.name=name;
@@ -31,5 +31,16 @@ public class Product {
                 "name='" + name + '\'' +
                 ", price=" + price +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Product otherProduct) {
+        if(this.price > otherProduct.price){
+            return 1;
+        }else if(this.price == otherProduct.price){
+            return 0;
+        }else {
+            return -1;
+        }
     }
 }
