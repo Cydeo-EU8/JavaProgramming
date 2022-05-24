@@ -1,9 +1,6 @@
 package week06;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
 
 public class SetOfProducts {
     public static void main(String[] args) {
@@ -20,7 +17,18 @@ public class SetOfProducts {
         products.add(new Product("book",24.99));
         products.add(new Product("newspaper",5.99));
         products.add(new Product("magazine",7.99));
+        /*
+        Since a user might enter a null object to our TreeSet and there is a chance to get RunTime Exception, we surround our code with try catch, so our execution is NOT interrupted
+         */
 
+        try {
+            products.add(new Product("book",24.99));
+            products.add(new Product("newspaper",5.99));
+            products.add(new Product("magazine",7.99));
+            products.add(null);  // RunTime Exception
+        }catch (Exception e){
+
+        }
         System.out.println(products);
 
         for(Product eachProduct: products ){
@@ -30,6 +38,7 @@ public class SetOfProducts {
             }
         }
 
+        // Collections.sort(products);
         System.out.println(products);
 
         Set<Integer> nums = new TreeSet<>();
