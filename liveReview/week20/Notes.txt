@@ -1,1 +1,17 @@
 Last Week of JAVA
+Map Interface ---> does NOT extend Collection Interface, but we can consider as part Collection Framework
+- pairs of Data: key - value
+- keys must be unique(not duplicated), values can be dublicate
+- does not support primitives
+
+HashMap(C) implements Map Interface  (similar to HashSet functions)
+order is random, faster, accepts null key, using hash code
+
+LinkedHashMap(C) --(LinkedList)
+keeps the insertion order, accepts null key
+
+TreeMap(C)  - TreeSet
+Sorted, does not accept null key
+
+HashTable(C)  --- kind of like Vector
+does not accept null key, order is random, synchronized (slower)
