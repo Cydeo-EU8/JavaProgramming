@@ -15,3 +15,5 @@ Sorted, does not accept null key
 
 HashTable(C)  --- kind of like Vector
 does not accept null key, order is random, synchronized (slower)
+
+ENUM: constant values that have been predefined : compass directions (North, East ...)
