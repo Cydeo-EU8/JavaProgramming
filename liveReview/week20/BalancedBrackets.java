@@ -53,7 +53,7 @@ public class BalancedBrackets {
      */
     public static void main(String[] args) {
 
-        isBalanced("{([])}");
+        System.out.println(" {([])} is balanced " + isBalanced("{([])}"));
     }
 
     public static boolean isBalanced(String exp){
@@ -67,6 +67,8 @@ public class BalancedBrackets {
 
         for (int i = 0; i < exp.length(); i++) {
 
+            //    {  (  [   ]   )   }
+            // stack|  |
             char ch = exp.charAt(i);
             if(ch=='('||ch=='['||ch=='{'){
                 stack.push(ch);
@@ -74,7 +76,7 @@ public class BalancedBrackets {
                 // nothing to compare
                 if(stack.isEmpty()){
                     return false;
-                }else if(ch != brackets.get(stack.pop())){
+                }else if(ch != brackets.get(stack.pop())){  // ] == ] , ) == ) , } == }
                     return false;
                 }
 
