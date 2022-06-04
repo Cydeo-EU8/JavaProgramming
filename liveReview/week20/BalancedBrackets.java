@@ -54,6 +54,10 @@ public class BalancedBrackets {
     public static void main(String[] args) {
 
         System.out.println(" {([])} is balanced " + isBalanced("{([])}"));
+
+        String str = "{[[(]]}";
+        boolean result = check(str);
+        System.out.println(list);
     }
 
     public static boolean isBalanced(String exp){
@@ -77,6 +81,7 @@ public class BalancedBrackets {
                 if(stack.isEmpty()){
                     return false;
                 }else if(ch != brackets.get(stack.pop())){  // ] == ] , ) == ) , } == }
+                    // brackets.get(stack.pop())  : map(key : { )---> value as }: always returning closing brackets
                     return false;
                 }
 
@@ -90,6 +95,27 @@ public class BalancedBrackets {
         }
 
 
+    }
+    // Salih Abas
+    public static HashMap <Character, Character> list = new HashMap<>();
+
+    public static boolean check(String str){
+        list.put('[', ']');
+        list.put('{','}');
+        list.put('(',')');
+
+
+        for (int i = 0; i < str.length(); i++) {
+
+            if ((char)list.get(str.charAt(i))==str.charAt(str.length()-i-1)) {
+                continue;
+            }else {
+
+                return false;
+            }
+
+        }
+        return true;
     }
 
 }
