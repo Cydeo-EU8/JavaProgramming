@@ -21,13 +21,15 @@ public class WhileHungary {
         while (true){
             // condition that will take us out of the loop
             if(bananas==countToFull){
-                break;  // branching statement
+                //break;  // branching statement
+               // return;
+                System.exit(0);
             }
             bananas++;
             System.out.println("Eating a banana: \uD83C\uDF4C "+bananas);
 
         }
-        System.out.println("Had enough bananas, let's get back to study");
+       // System.out.println("Had enough bananas, let's get back to study");
 
     }
 

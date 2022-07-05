@@ -21,3 +21,11 @@ Branching Statements :
     break     : this one breaks the loop
     continue : this one skips following steps in the loop
     return
+
+Example Order:
+WhileHungry
+RandomPassword
+FrequencyOfCharacters
+Task01
+Task02
+
